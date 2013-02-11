@@ -1,0 +1,23 @@
+%h3.span8.org
+  %a(href="http://www.thougthworks.com" target="_blank") Thoughtworks, Chennai
+.span2
+  .well
+    Lead Consultant
+    %br
+    Apr 2012 to present
+.span10.details
+  %p I worked for a retail client called GruppoPAM in building their internal applications. PAM is a large retail chain in Italy with over a 1000 stores operating under their name. PAM is migrating its IT infrastructure from traditional monolithic model to a more flexible set of composable services. 
+  .project
+    %h3
+      Assortment Generation &amp; Configuration
+    = skill_tags("PostgreSQL", "Clojure", "Neo4j")
+    %p Merchandisers configure attributes such as price, replenishment details and shelf availability for an article. As they cannot do this for 1000 stores directly, they organize the stores under various hierarchies and set attributes on such levels. The existing approach is to use a bunch of stored procedures and triggers to flatten out such configuration into intermediate tables which are then reconstructed on every change. The project takes a graph based rather than a set based approach to determine the value of attributes largely based on traversals and a little bit of help from lucene to look up arbitrary nodes/relationships.
+  .project
+    %h3
+      Retail Analytics Dashboard
+    = skill_tags "Rails", "Coffeescript", "Backbone.js", "D3", "NVD3", "Jasmine", "RSpec", "Cucumber", "Java", "Spring MVC", "Spring Batch","PostgreSQL"
+    %p This app aims to be the merchandiser's workbench. It provides necessary reports using various metrics such as sales, margin, stock positions, etc. We wanted to make this app very intuitive and easy to use for the users. It tries to leverage heavily on visualization and graphs as much as possible. The computed data was imported from Teradata and staged into Postgres where view related computations were done on the Java layer. The Java layer exposed the information as a bunch of services which was then consumed by the Rails application.
+  .project
+    %h3 Contract Negotiation and Management System
+    = skill_tags "Rails", "jQuery", "PostgreSQL", "Java", "Spring Batch", "Cucumber", "RSpec"
+    %p This app is used by merchandisers to track the progress of their negotiations with suppliers regarding various discounts and terms of procurement and replenishment. The application maintains the final agreement as PDF and automates the workflow involved drafting and maintaining contracts.

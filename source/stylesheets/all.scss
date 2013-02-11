@@ -1,0 +1,45 @@
+@charset "utf-8";
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  margin-top: 50px;
+  .photo {
+    border: 1px solid #ccc;
+    padding: 5px;
+    -moz-box-shadow: 5px 5px 3px #888;
+    -webkit-box-shadow: 5px 5px 3px #888;
+    box-shadow: 5px 5px 3px #888;
+    transform:rotate(1deg);
+    -ms-transform:rotate(1deg); /* IE 9 */
+    -moz-transform:rotate(1deg); /* Firefox */
+    -webkit-transform:rotate(1deg); /* Safari and Chrome */
+    -o-transform:rotate(1deg); /* Opera */
+  }
+}
+#content {
+  line-height: 2em;
+  padding: 15px 0;
+}
+.heading {
+  p {
+    font-weight: bold;
+    font-size: 2em;
+    color: #aaa;
+  }
+}
+ul.skills{
+  li {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #777;
+    padding: 3px 5px;
+    background-color: #ddd;
+  }
+}
+.company .org {
+  border-top: 3px solid #777;
+}
+#exp-nav.affix {
+  top: 60px;
+}
