@@ -1,0 +1,50 @@
+/* line 2, all.scss */
+body {
+  font-family: "Roboto", sans-serif; }
+
+/* line 5, all.scss */
+header {
+  margin-top: 50px; }
+  /* line 7, all.scss */
+  header .photo {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    -moz-box-shadow: 5px 5px 3px #888888;
+    -webkit-box-shadow: 5px 5px 3px #888888;
+    box-shadow: 5px 5px 3px #888888;
+    transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    /* IE 9 */
+    -moz-transform: rotate(1deg);
+    /* Firefox */
+    -webkit-transform: rotate(1deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(1deg);
+    /* Opera */ }
+
+/* line 20, all.scss */
+#content {
+  line-height: 2em;
+  padding: 15px 0; }
+
+/* line 25, all.scss */
+.heading p {
+  font-weight: bold;
+  font-size: 2em;
+  color: #aaa; }
+
+/* line 32, all.scss */
+ul.skills li {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #777777;
+  padding: 3px 5px;
+  background-color: #ddd; }
+
+/* line 40, all.scss */
+.company .org {
+  border-top: 3px solid #777777; }
+
+/* line 43, all.scss */
+#exp-nav.affix {
+  top: 60px; }
