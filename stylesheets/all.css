@@ -49,9 +49,39 @@ ul.skills li {
 #exp-nav.affix {
   top: 60px; }
 
-/* line 46, all.scss */
+/* line 48, all.scss */
+header h1 a {
+  color: #333; }
+/* line 51, all.scss */
+header h1 a:hover {
+  text-decoration: none;
+  color: #777; }
+/* line 56, all.scss */
+header p {
+  clear: both; }
+
+/* line 60, all.scss */
 .social_links {
-  margin-left: 5px; }
-  /* line 48, all.scss */
+  margin: 15px; }
+  /* line 62, all.scss */
   .social_links li {
     display: inline; }
+    /* line 64, all.scss */
+    .social_links li a {
+      display: block;
+      float: left;
+      width: 32px;
+      height: 32px;
+      text-indent: -1000px; }
+    /* line 71, all.scss */
+    .social_links li a.github {
+      background-image: url("../images/github_alt.png"); }
+    /* line 74, all.scss */
+    .social_links li a.linked_in {
+      background-image: url("../images/linkedin_alt.png"); }
+    /* line 77, all.scss */
+    .social_links li a.twitter {
+      background-image: url("../images/twitter_alt.png"); }
+    /* line 80, all.scss */
+    .social_links li a.skype {
+      background-image: url("../images/skype.png"); }
