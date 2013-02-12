@@ -42,8 +42,9 @@
     <div class='span2'>
       <img alt='Vagmi Mudumbai' class='photo' src='http://www.gravatar.com/avatar/76c5ea6a17750fdf3f65da5832a1f37c.png?s=150' />
     </div>
-    <div class='span10'>
+    <div class='span6'>
       <h1>Vagmi Mudumbai</h1>
+      <p>I code, therefore I am.</p>
       <ul class='social_links'>
         <li>
           <a class='github' href='http://github.com/vagmi'>Github</a>
@@ -55,22 +56,11 @@
           <a class='twitter' href='http://twitter.com/vagmi'>Twitter</a>
         </li>
       </ul>
-      <p>Hacker, Entrepreneur, Dad</p>
     </div>
-  </div>
-</header>
-<div class='container' id='content'>
-  <div class='row'>
-    <p class='span2 heading'>About Me</p>
-    <p class='span6' id='about'>
-      To work for an organization that values the craft of software development and provides the right kind
-      of environment and the freedom to build great software. I am very passionate about the open source and would
-      like to join an organization that not only uses open source software but creates or contributes to the ecosystem.
-    </p>
     <div class='span4'>
       <div class='well'>
         <ul>
-          <li>10+ years of experience</li>
+          <li>11 years of experience</li>
           <li>A software generalist and a craftsman</li>
           <li>A continuous learner</li>
           <li>Entrepreneurial Attitude</li>
@@ -78,8 +68,22 @@
       </div>
     </div>
   </div>
+</header>
+<div class='container' id='content'>
   <div class='row'>
-    <p class='span2 heading'>Skills</p>
+    <div class='span2 heading'>
+      <p>Objective</p>
+    </div>
+    <p class='span10' id='objective'>
+      To work for an organization that values the craft of software development and provides the right kind
+      of environment and the freedom to build great software. I am very passionate about the open source and would
+      like to join an organization that not only uses open source software but creates or contributes to the ecosystem.
+    </p>
+  </div>
+  <div class='row'>
+    <div class='span2 heading'>
+      <p>Skills</p>
+    </div>
     <div class='span10'>
       <ul class='skills'>
         <li>Ruby</li>
@@ -101,7 +105,9 @@
     </div>
   </div>
   <div class='row'>
-    <p class='span2 heading'>Open Source</p>
+    <div class='span2 heading'>
+      <p>Open Source</p>
+    </div>
     <div class='span10' id='opensource'><p>I have always been very passionate about open source software. My first PC was a 486 DX2 with 3.5" floppy drives. I ran Slackware on it which came with PC Quest magazine on 6 floppies. It was fun installing and nuking my hard disk in that process. Since then, I've been participating in the community and contributing what I can in terms of code, documentation, discussions, etc. Here are some of the projects that I am proud of.</p>
 <div class='project'>
   <h3>
@@ -154,7 +160,7 @@
     </li>
   </ul>
   <p>
-    While we were debugging an polyglot application, we were setting the application name of the connections from various stacks to see if there were any issues with our connections. My colleague, who is an ardent fan of the Java way, jocularly remarked that setting the app name in Rails should be as simple declaring a gem in the Gemfile to make the life of lazy Rails programmers easier. I found there there was no such gem, so I wrote a gem which when used with postgres sets the application name after opening the postgres connection. Take that Java devs.
+    While we were debugging a polyglot application, we were setting the application name of the connections from various stacks to see if there were any issues with our connections. My colleague, who is an ardent fan of the Java way, jocularly remarked that setting the app name in Rails should be as simple as declaring a gem in the Gemfile to make the life of lazy Rails programmers easier. I found that there was no such gem, so I wrote a gem which when used with postgres sets the application name after opening the postgres connection. Take that Java devs.
   </p>
 </div>
 <div class='project'>
@@ -176,7 +182,7 @@
     </li>
   </ul>
   <p>
-    Rails 3.1 uses sprockets for its asset pipeline. Rails 3.1 has shown considerable love for SCSS and SASS but has left HAML out. We at Dharana Software Innovations are die hard HAML fans. We beleive that it is the best templating language around. So we would like to have it as a part of our client side toolkit as well. The haml-js project does exactly that. It was written for Node.js but works well with the browser too. This project helps us build JST templates with hamljs.
+    Rails 3.1 uses sprockets for its asset pipeline. Rails 3.1 has shown considerable love for SCSS and SASS but has left HAML out. I am a die hard HAML fans. I beleive that it is the best templating language around. The haml-js project brings haml to the browser. It was written for Node.js but works well with the browser too. This project helps build JST templates with hamljs.
   </p>
 </div>
 <div class='project'>
@@ -245,7 +251,7 @@
   </div>
 </div>
 <div class='span10 details'>
-  <p>I worked for a retail client called GruppoPAM in building their internal applications. PAM is a large retail chain in Italy with over a 1000 stores operating under their name. PAM is migrating its IT infrastructure from traditional monolithic model to a more flexible set of composable services.</p>
+  <p>I worked for a retail client in building their internal applications. The client is a large retail chain in Italy with over a 1000 stores operating under their name. The client is migrating its IT infrastructure from traditional monolithic model to a more flexible set of composable services.</p>
   <div class='project'>
     <h3>
       Assortment Generation &amp; Configuration
@@ -561,8 +567,8 @@
       <li>Gallery and Image uploads</li>
       <li>A Discussion Forum</li>
       <li>An internal corporate blog</li>
-      <li>This enabled the client to leverage our tool to ease their communication.</li>
     </ul>
+    <p>This enabled the client to leverage our tool to ease their communication.</p>
   </div>
 </div>
 </div>
@@ -602,9 +608,9 @@
       </li>
     </ul>
     <p>
-      I was leading a team of developers. As a part of the business user tools initiative under SAP, we were commissioned to build a UI framework that could be used to build various business reports and analytics widgets on top of the Flex framework. We build the framework initially based on the open source
+      I was leading a team of developers. As a part of the business user tools initiative under SAP, we were commissioned to build a UI framework that could be used to build various business reports and analytics widgets on top of the Flex framework. We built the framework initially based on the open source
       <a href='http://sourceforge.net/adobe/cairngorm/wiki/About/'>Cairngorm 2 framework.</a>
-      However we found that for large applications the size of the SWF was huge and the build times were quite large. We then evaluated the Polestar framework built by the Business Objects team and modified it to suit our requirements. The Polestar project implemented the Eclipse's platform and runtime libraries in Flex. I forked the project and added the ability to discover plugins and load plugins based on extension points and extensions. I also built a client side context framework that extended the AS3 Binding across different plugins (SWFs).
+      However we found that for large applications the size of the SWF was huge and the build times were quite large. We then evaluated the Polestar framework and modified it to suit our requirements. The Polestar project implemented the Eclipse's platform and runtime libraries in Flex. I forked the project and added the ability to discover plugins and load plugins based on extension points and extensions. I also built a client side context framework that extended the AS3 Binding across different plugins (SWFs).
     </p>
   </div>
   <div class='project'>
@@ -664,7 +670,7 @@
       </li>
     </ul>
     <p>
-      I had written SAP Environment Checker to help me analyze the health of a system by detective certain aspects like presence of DLLs in the right place, presence of registry entries, an ability to connect with the database and check the version of the client database and so on. I had built it in such a manner that the tool itself was really small. If an assembly placed in the same directory as the tool and it exposed classes conforming to an interface and is marked XMLSerializable, it would be dynamically loaded and any corresponding entries in the ".env" file could be processed. The results were tabulated using XSLT to present it as a nice HTML page that could be printed out. The tool also sported a IronPython plugin that could run any snippet of python code that could provide a similar result.
+      I had written SAP Environment Checker to help me analyze the health of a system by detecting certain aspects like presence of DLLs in the right place, presence of registry entries, an ability to connect with the database and check the version of the client database and so on. I had built it in such a manner that the tool itself was really small. You could extend the tool by implementing a few interfaces and dropping the assembly into the plugins directory.  The plugins would be dynamically loaded via reflection and any corresponding entries in the ".env" file could be processed. The results were tabulated using XSLT to present it as a nice HTML page that could be printed out. The tool also sported a IronPython plugin that could run any snippet of python code that could provide a similar result.
     </p>
   </div>
   <div class='project'>
@@ -689,7 +695,7 @@
       </li>
     </ul>
     <p>
-      SAP CRM Mobile Client in 4.0 was based on VBA and the 5.0 version was based on .NET. As a part of the team we were maintaining the 4.0 install package as it was already under SP4 when I joined however the work on 5.0 package was just beginning. The 4.0 installer took about 13 hours to build and was difficult to service upgrades. I had architected the 5.0 setup to do the following.
+      SAP CRM Mobile Client in 4.0 was based on VBA and the 5.0 version was based on .NET. We were maintaining the CRM 4.0 installer package as it was already under SP4 when I joined however the work on 5.0 package was just beginning. The 4.0 installer took about 13 hours to build and was difficult to service upgrades. I had architected the 5.0 setup to do the following.
       <ul>
         <li>Modularize the packages to achieve better serviceability.</li>
         <li>Achieved over 60% reduction in size for frequently serviceable components like the client framework and controls.</li>
@@ -757,7 +763,9 @@
     </div>
   </div>
   <div class='row'>
-    <p class='span2 heading'>Testimonials</p>
+    <div class='span2 heading'>
+      <p>Testimonials</p>
+    </div>
     <div class='span10' id='testimonials'><p>Ryan Schilling (A DharanaSoft Client) - CEO, GoNeighborly</p>
 <blockquote>
   This is my second startup and I've worked with no less than a half dozen development firms and probably two dozen engineers/designers.  You are by far the most well informed and talented hacker I've worked with.  I would say that it is not only your ability to code or speed or any of the normal measurements most developers get graded on that sets you apart.  Having lived in San Francisco and known startup founders and engineers, I see clearly that your talent is both being able to clearly understand the vision and build innovative solutions.  Most importantly you have a tremendous feel for product function/features.  I have not seen this in any of the people I've worked with.
@@ -778,7 +786,9 @@
 </blockquote></div>
   </div>
   <div class='row'>
-    <p class='span2 heading'>Education</p>
+    <div class='span2 heading'>
+      <p>Education</p>
+    </div>
     <div class='span10' id='education'>
           <table class='table table-bordered table-striped'>
             <tbody>

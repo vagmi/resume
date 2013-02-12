@@ -48,3 +48,10 @@ ul.skills li {
 /* line 43, all.scss */
 #exp-nav.affix {
   top: 60px; }
+
+/* line 46, all.scss */
+.social_links {
+  margin-left: 5px; }
+  /* line 48, all.scss */
+  .social_links li {
+    display: inline; }
