@@ -16,8 +16,9 @@
   .row
     .span2
       %img.photo{:alt => "Vagmi Mudumbai", :src => "http://www.gravatar.com/avatar/76c5ea6a17750fdf3f65da5832a1f37c.png?s=150"}/
-    .span10
+    .span6
       %h1 Vagmi Mudumbai
+      %p I code, therefore I am.
       %ul.social_links
         %li
           %a.github{:href => "http://github.com/vagmi"} Github
@@ -25,23 +26,25 @@
           %a.linked_in{:href => "http://linkedin.com/in/vagmi"} LinkedIn
         %li
           %a.twitter{:href => "http://twitter.com/vagmi"} Twitter
-      %p Hacker, Entrepreneur, Dad
-#content.container
-  .row
-    %p.span2.heading About Me
-    %p#about.span6
-      To work for an organization that values the craft of software development and provides the right kind
-      of environment and the freedom to build great software. I am very passionate about the open source and would
-      like to join an organization that not only uses open source software but creates or contributes to the ecosystem.
     .span4
       .well
         %ul
-          %li 10+ years of experience
+          %li 11 years of experience
           %li A software generalist and a craftsman
           %li A continuous learner
           %li Entrepreneurial Attitude
+    
+#content.container
   .row
-    %p.span2.heading Skills
+    .span2.heading 
+      %p Objective
+    %p#objective.span10
+      To work for an organization that values the craft of software development and provides the right kind
+      of environment and the freedom to build great software. I am very passionate about the open source and would
+      like to join an organization that not only uses open source software but creates or contributes to the ecosystem.
+  .row
+    .span2.heading 
+      %p Skills
     .span10
       %ul.skills
         %li Ruby
@@ -61,7 +64,8 @@
         %li Java
 
   .row
-    %p.span2.heading Open Source
+    .span2.heading 
+      %p Open Source
     .span10#opensource= partial "opensource"
   .row
     .span2.heading 
@@ -83,8 +87,10 @@
         .row
           =partial "company", locals: {company: company}
   .row
-    %p.span2.heading Testimonials
+    .span2.heading 
+      %p Testimonials
     .span10#testimonials= partial "testimonials"
   .row
-    %p.span2.heading Education
+    .span2.heading 
+      %p Education
     .span10#education= partial "education"

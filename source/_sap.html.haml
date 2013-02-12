@@ -18,9 +18,9 @@
       AUI Framework
     =skill_tags "Adobe Flex", "ActionScript"
     %p 
-      I was leading a team of developers. As a part of the business user tools initiative under SAP, we were commissioned to build a UI framework that could be used to build various business reports and analytics widgets on top of the Flex framework. We build the framework initially based on the open source
+      I was leading a team of developers. As a part of the business user tools initiative under SAP, we were commissioned to build a UI framework that could be used to build various business reports and analytics widgets on top of the Flex framework. We built the framework initially based on the open source
       %a(href="http://sourceforge.net/adobe/cairngorm/wiki/About/") Cairngorm 2 framework.
-      However we found that for large applications the size of the SWF was huge and the build times were quite large. We then evaluated the Polestar framework built by the Business Objects team and modified it to suit our requirements. The Polestar project implemented the Eclipse's platform and runtime libraries in Flex. I forked the project and added the ability to discover plugins and load plugins based on extension points and extensions. I also built a client side context framework that extended the AS3 Binding across different plugins (SWFs).
+      However we found that for large applications the size of the SWF was huge and the build times were quite large. We then evaluated the Polestar framework and modified it to suit our requirements. The Polestar project implemented the Eclipse's platform and runtime libraries in Flex. I forked the project and added the ability to discover plugins and load plugins based on extension points and extensions. I also built a client side context framework that extended the AS3 Binding across different plugins (SWFs).
 
   .project
     %h3
@@ -41,14 +41,14 @@
       SAP Environment Checker
     =skill_tags "C#", ".NET", "IronPython", "XML"
     %p
-      I had written SAP Environment Checker to help me analyze the health of a system by detective certain aspects like presence of DLLs in the right place, presence of registry entries, an ability to connect with the database and check the version of the client database and so on. I had built it in such a manner that the tool itself was really small. If an assembly placed in the same directory as the tool and it exposed classes conforming to an interface and is marked XMLSerializable, it would be dynamically loaded and any corresponding entries in the ".env" file could be processed. The results were tabulated using XSLT to present it as a nice HTML page that could be printed out. The tool also sported a IronPython plugin that could run any snippet of python code that could provide a similar result.
+      I had written SAP Environment Checker to help me analyze the health of a system by detecting certain aspects like presence of DLLs in the right place, presence of registry entries, an ability to connect with the database and check the version of the client database and so on. I had built it in such a manner that the tool itself was really small. You could extend the tool by implementing a few interfaces and dropping the assembly into the plugins directory.  The plugins would be dynamically loaded via reflection and any corresponding entries in the ".env" file could be processed. The results were tabulated using XSLT to present it as a nice HTML page that could be printed out. The tool also sported a IronPython plugin that could run any snippet of python code that could provide a similar result.
 
   .project
     %h3
       SAP CRM Mobile Client 4.0 and 5.0 Installers
     =skill_tags "InstallShield", "MSI", "InstallScript", "C#", ".NET"
     %p
-      SAP CRM Mobile Client in 4.0 was based on VBA and the 5.0 version was based on .NET. As a part of the team we were maintaining the 4.0 install package as it was already under SP4 when I joined however the work on 5.0 package was just beginning. The 4.0 installer took about 13 hours to build and was difficult to service upgrades. I had architected the 5.0 setup to do the following.
+      SAP CRM Mobile Client in 4.0 was based on VBA and the 5.0 version was based on .NET. We were maintaining the CRM 4.0 installer package as it was already under SP4 when I joined however the work on 5.0 package was just beginning. The 4.0 installer took about 13 hours to build and was difficult to service upgrades. I had architected the 5.0 setup to do the following.
       %ul
         %li Modularize the packages to achieve better serviceability.
         %li Achieved over 60% reduction in size for frequently serviceable components like the client framework and controls.

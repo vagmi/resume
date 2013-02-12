@@ -1,0 +1,43 @@
+%p I have always been very passionate about open source software. My first PC was a 486 DX2 with 3.5" floppy drives. I ran Slackware on it which came with PC Quest magazine on 6 floppies. It was fun installing and nuking my hard disk in that process. Since then, I've been participating in the community and contributing what I can in terms of code, documentation, discussions, etc. Here are some of the projects that I am proud of.
+
+.project 
+  %h3
+    %a(href="https://github.com/vagmi/graphtastic") Graphtastic
+  =skill_tags("Clojure","Neo4j")
+  %p
+    Neo4j is a NoSQL Graph Database designed for high peformance transactional graphs. It is orders of magnitude more performant than relational databases for highly connected datasets where the primary usecase is navigation and path selection between them. Although, social network is the first thing that springs to one's mind when thinking of Neo4j, there are several problems that are amenable to graph solutions. For example, transitive authorizations and permissions can be modelled using graphs.
+  %p
+    Graphtastic tries to bring in the awesomeness of Neo4j with the awesomeness of clojure. The traversal framework in Neo4j makes clojure a natural choice for writing expanders, predicate filters and evaluators.
+
+.project
+  %h3
+    %a(href="https://github.com/thoughtworks/irumugam") irumugam
+  =skill_tags "RSpec", "Rack"
+  %p
+    Irumugam - The two faced framework helps you setup a DSL for describing services contracts. Contracts are described using a Sinatra like DSL with expectations. You can point it to an end point and run it as a RSpec suite or you can run it as a server and provide mocks for your services.
+.project
+  %h3
+    %a(href="https://github.com/vagmi/pg-app-name") PG App Name
+  =skill_tags "Ruby","RSpec","PostgreSQL"
+  %p
+    While we were debugging a polyglot application, we were setting the application name of the connections from various stacks to see if there were any issues with our connections. My colleague, who is an ardent fan of the Java way, jocularly remarked that setting the app name in Rails should be as simple as declaring a gem in the Gemfile to make the life of lazy Rails programmers easier. I found that there was no such gem, so I wrote a gem which when used with postgres sets the application name after opening the postgres connection. Take that Java devs.
+
+.project
+  %h3
+    %a(href="https://github.com/dharanasoft/haml-sprockets") haml-sprockets
+  =skill_tags "Ruby","RSpec","Sprockets","HamlJS"
+  %p
+    Rails 3.1 uses sprockets for its asset pipeline. Rails 3.1 has shown considerable love for SCSS and SASS but has left HAML out. I am a die hard HAML fans. I beleive that it is the best templating language around. The haml-js project brings haml to the browser. It was written for Node.js but works well with the browser too. This project helps build JST templates with hamljs.
+
+.project
+  %h3 
+    %a(href="https://github.com/dharanasoft/quartz-jruby") quartz-jruby
+  =skill_tags "JRuby","Quartz","Java"
+  %p Quartz is an open source Java based scheduling framework. This project provides a JRuby wrapper over the cron API. The API is meant to be readable and really simple to create cron jobs in the java process space.
+
+.project 
+  %h3
+    %a(href="https://github.com/dharanasoft/rtf-highlight") RTFHighlight.vim
+  =skill_tags "vim"
+  %p
+    This plugin is used to syntax highlight pieces of code to RTF and it automatically copies it to the OSX clipboard. This will be very useful in putting code into keynote presentations.
