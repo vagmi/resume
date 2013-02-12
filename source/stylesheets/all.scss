@@ -43,9 +43,42 @@ ul.skills{
 #exp-nav.affix {
   top: 60px;
 }
+header {
+  h1 {
+    a {
+      color: #333;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #777;
+    }
+  }
+  p {
+    clear: both;
+  }
+}
 .social_links {
-  margin-left: 5px;
+  margin: 15px;
   li {
     display: inline;
+    a {
+      display: block;
+      float: left;
+      width: 32px;
+      height: 32px;
+      text-indent: -1000px;
+    }
+    a.github {
+      background-image: url("../images/github_alt.png");
+    }
+    a.linked_in {
+      background-image: url("../images/linkedin_alt.png");
+    }
+    a.twitter {
+      background-image: url("../images/twitter_alt.png");
+    }
+    a.skype {
+      background-image: url("../images/skype.png");
+    }
   }
 }
