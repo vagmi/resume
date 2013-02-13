@@ -6,10 +6,14 @@ body {
   /* line 6, all.scss */
   .print-only {
     display: none; } }
-/* line 10, all.scss */
+@media (max-width: 768px) {
+  /* line 11, all.scss */
+  #exp-nav {
+    display: none; } }
+/* line 15, all.scss */
 header {
   margin-top: 50px; }
-  /* line 12, all.scss */
+  /* line 17, all.scss */
   header .photo {
     border: 1px solid #cccccc;
     padding: 5px;
@@ -26,18 +30,18 @@ header {
     -o-transform: rotate(1deg);
     /* Opera */ }
 
-/* line 25, all.scss */
+/* line 30, all.scss */
 #content {
   line-height: 2em;
   padding: 15px 0; }
 
-/* line 30, all.scss */
+/* line 35, all.scss */
 .heading p {
   font-weight: bold;
   font-size: 1.8em;
   color: #aaa; }
 
-/* line 37, all.scss */
+/* line 42, all.scss */
 ul.skills li {
   display: inline-block;
   margin: 5px;
@@ -45,43 +49,43 @@ ul.skills li {
   padding: 3px 5px;
   background-color: #ddd; }
 
-/* line 45, all.scss */
+/* line 50, all.scss */
 #exp-nav.affix {
   top: 60px; }
 
-/* line 50, all.scss */
+/* line 55, all.scss */
 header h1 a {
   color: #333; }
-/* line 53, all.scss */
+/* line 58, all.scss */
 header h1 a:hover {
   text-decoration: none;
   color: #777; }
-/* line 58, all.scss */
+/* line 63, all.scss */
 header p {
   clear: both; }
 
-/* line 62, all.scss */
+/* line 67, all.scss */
 .social_links {
   margin: 15px; }
-  /* line 64, all.scss */
+  /* line 69, all.scss */
   .social_links li {
     display: inline; }
-    /* line 66, all.scss */
+    /* line 71, all.scss */
     .social_links li a {
       display: block;
       float: left;
       width: 32px;
       height: 32px;
       text-indent: -1000px; }
-    /* line 73, all.scss */
+    /* line 78, all.scss */
     .social_links li a.github {
       background-image: url("../images/github_alt.png"); }
-    /* line 76, all.scss */
+    /* line 81, all.scss */
     .social_links li a.linked_in {
       background-image: url("../images/linkedin_alt.png"); }
-    /* line 79, all.scss */
+    /* line 84, all.scss */
     .social_links li a.twitter {
       background-image: url("../images/twitter_alt.png"); }
-    /* line 82, all.scss */
+    /* line 87, all.scss */
     .social_links li a.skype {
       background-image: url("../images/skype.png"); }
