@@ -2,6 +2,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
 header {
   margin-top: 50px;
   .photo {
@@ -24,7 +29,7 @@ header {
 .heading {
   p {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #aaa;
   }
 }
@@ -36,9 +41,6 @@ ul.skills{
     padding: 3px 5px;
     background-color: #ddd;
   }
-}
-.company .org {
-  border-top: 3px solid #777;
 }
 #exp-nav.affix {
   top: 60px;
