@@ -2,10 +2,14 @@
 body {
   font-family: "Roboto", sans-serif; }
 
-/* line 5, all.scss */
+@media screen {
+  /* line 6, all.scss */
+  .print-only {
+    display: none; } }
+/* line 10, all.scss */
 header {
   margin-top: 50px; }
-  /* line 7, all.scss */
+  /* line 12, all.scss */
   header .photo {
     border: 1px solid #cccccc;
     padding: 5px;
@@ -22,18 +26,18 @@ header {
     -o-transform: rotate(1deg);
     /* Opera */ }
 
-/* line 20, all.scss */
+/* line 25, all.scss */
 #content {
   line-height: 2em;
   padding: 15px 0; }
 
-/* line 25, all.scss */
+/* line 30, all.scss */
 .heading p {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.8em;
   color: #aaa; }
 
-/* line 32, all.scss */
+/* line 37, all.scss */
 ul.skills li {
   display: inline-block;
   margin: 5px;
@@ -41,47 +45,43 @@ ul.skills li {
   padding: 3px 5px;
   background-color: #ddd; }
 
-/* line 40, all.scss */
-.company .org {
-  border-top: 3px solid #777777; }
-
-/* line 43, all.scss */
+/* line 45, all.scss */
 #exp-nav.affix {
   top: 60px; }
 
-/* line 48, all.scss */
+/* line 50, all.scss */
 header h1 a {
   color: #333; }
-/* line 51, all.scss */
+/* line 53, all.scss */
 header h1 a:hover {
   text-decoration: none;
   color: #777; }
-/* line 56, all.scss */
+/* line 58, all.scss */
 header p {
   clear: both; }
 
-/* line 60, all.scss */
+/* line 62, all.scss */
 .social_links {
   margin: 15px; }
-  /* line 62, all.scss */
+  /* line 64, all.scss */
   .social_links li {
     display: inline; }
-    /* line 64, all.scss */
+    /* line 66, all.scss */
     .social_links li a {
       display: block;
       float: left;
       width: 32px;
       height: 32px;
       text-indent: -1000px; }
-    /* line 71, all.scss */
+    /* line 73, all.scss */
     .social_links li a.github {
       background-image: url("../images/github_alt.png"); }
-    /* line 74, all.scss */
+    /* line 76, all.scss */
     .social_links li a.linked_in {
       background-image: url("../images/linkedin_alt.png"); }
-    /* line 77, all.scss */
+    /* line 79, all.scss */
     .social_links li a.twitter {
       background-image: url("../images/twitter_alt.png"); }
-    /* line 80, all.scss */
+    /* line 82, all.scss */
     .social_links li a.skype {
       background-image: url("../images/skype.png"); }
