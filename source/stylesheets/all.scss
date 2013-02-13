@@ -7,6 +7,11 @@ body {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  #exp-nav {
+    display: none;
+  }
+}
 header {
   margin-top: 50px;
   .photo {
