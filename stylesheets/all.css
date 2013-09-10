@@ -1,25 +1,25 @@
-/* line 2, all.scss */
+/* line 2, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 body {
   font-family: "Roboto", sans-serif; }
 
 @media screen {
-  /* line 6, all.scss */
+  /* line 6, /Users/vagmi/work/resume/source/stylesheets/all.scss */
   .print-only {
     display: none; } }
 @media (max-width: 768px) {
-  /* line 11, all.scss */
+  /* line 11, /Users/vagmi/work/resume/source/stylesheets/all.scss */
   #exp-nav {
     display: none; } }
-/* line 15, all.scss */
+/* line 15, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 header {
   margin-top: 50px; }
-  /* line 17, all.scss */
+  /* line 17, /Users/vagmi/work/resume/source/stylesheets/all.scss */
   header .photo {
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
     padding: 5px;
-    -moz-box-shadow: 5px 5px 3px #888888;
-    -webkit-box-shadow: 5px 5px 3px #888888;
-    box-shadow: 5px 5px 3px #888888;
+    -moz-box-shadow: 5px 5px 3px #888;
+    -webkit-box-shadow: 5px 5px 3px #888;
+    box-shadow: 5px 5px 3px #888;
     transform: rotate(1deg);
     -ms-transform: rotate(1deg);
     /* IE 9 */
@@ -30,62 +30,62 @@ header {
     -o-transform: rotate(1deg);
     /* Opera */ }
 
-/* line 30, all.scss */
+/* line 30, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 #content {
   line-height: 2em;
   padding: 15px 0; }
 
-/* line 35, all.scss */
+/* line 35, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 .heading p {
   font-weight: bold;
   font-size: 1.8em;
   color: #aaa; }
 
-/* line 42, all.scss */
+/* line 42, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 ul.skills li {
   display: inline-block;
   margin: 5px;
-  border: 1px solid #777777;
+  border: 1px solid #777;
   padding: 3px 5px;
   background-color: #ddd; }
 
-/* line 50, all.scss */
+/* line 50, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 #exp-nav.affix {
   top: 60px; }
 
-/* line 55, all.scss */
+/* line 55, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 header h1 a {
   color: #333; }
-/* line 58, all.scss */
+/* line 58, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 header h1 a:hover {
   text-decoration: none;
   color: #777; }
-/* line 63, all.scss */
+/* line 63, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 header p {
   clear: both; }
 
-/* line 67, all.scss */
+/* line 67, /Users/vagmi/work/resume/source/stylesheets/all.scss */
 .social_links {
   margin: 15px; }
-  /* line 69, all.scss */
+  /* line 69, /Users/vagmi/work/resume/source/stylesheets/all.scss */
   .social_links li {
     display: inline; }
-    /* line 71, all.scss */
+    /* line 71, /Users/vagmi/work/resume/source/stylesheets/all.scss */
     .social_links li a {
       display: block;
       float: left;
       width: 32px;
       height: 32px;
       text-indent: -1000px; }
-    /* line 78, all.scss */
+    /* line 78, /Users/vagmi/work/resume/source/stylesheets/all.scss */
     .social_links li a.github {
       background-image: url("../images/github_alt.png"); }
-    /* line 81, all.scss */
+    /* line 81, /Users/vagmi/work/resume/source/stylesheets/all.scss */
     .social_links li a.linked_in {
       background-image: url("../images/linkedin_alt.png"); }
-    /* line 84, all.scss */
+    /* line 84, /Users/vagmi/work/resume/source/stylesheets/all.scss */
     .social_links li a.twitter {
       background-image: url("../images/twitter_alt.png"); }
-    /* line 87, all.scss */
+    /* line 87, /Users/vagmi/work/resume/source/stylesheets/all.scss */
     .social_links li a.skype {
       background-image: url("../images/skype.png"); }

@@ -53,7 +53,7 @@
 <header class='container'>
   <div class='row'>
     <div class='span2'>
-      <img alt='Vagmi Mudumbai' class='photo' src='http://www.gravatar.com/avatar/76c5ea6a17750fdf3f65da5832a1f37c.png?s=130' />
+      <img alt='Vagmi Mudumbai' class='photo' src='http://www.gravatar.com/avatar/76c5ea6a17750fdf3f65da5832a1f37c.png?s=130'>
     </div>
     <div class='span5'>
       <h1>
@@ -131,131 +131,133 @@
     <div class='span2 heading'>
       <p>Open Source</p>
     </div>
-    <div class='span10' id='opensource'><p>I have always been very passionate about open source software. My first PC was a 486 DX2 with 3.5" floppy drives. I ran Slackware on it which came with PC Quest magazine on 6 floppies. It was fun installing and nuking my hard disk in that process. Since then, I've been participating in the community and contributing what I can in terms of code, documentation, discussions, etc. Here are some of the projects that I am proud of.</p>
-<div class='project'>
-  <h3>
-    <a href='http://cloudterm.net/'>Cloudterm</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='Node' href='#'>Node</a>
-    </li>
-    <li>
-      <a data-skill='Docker' href='#'>Docker</a>
-    </li>
-  </ul>
-  <p>
-    This is like etherpad with a run button. It is still very alpha and a work in progress. I built it as a part of the
-    <a href='http://www.in50hrs.com/'>In50Hrs</a>
-    event. It uses Docker and Node.js to build a collaborative editor and wires it up with docker to provide a sandboxed environment to execute the any random stranger's code on my server.
-  </p>
-</div>
-<div class='project'>
-  <h3>
-    <a href='https://github.com/vagmi/graphtastic'>Graphtastic</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='Clojure' href='#'>Clojure</a>
-    </li>
-    <li>
-      <a data-skill='Neo4j' href='#'>Neo4j</a>
-    </li>
-  </ul>
-  <p>
-    Neo4j is a NoSQL Graph Database designed for high peformance transactional graphs. It is orders of magnitude more performant than relational databases for highly connected datasets where the primary usecase is navigation and path selection between them. Although, social network is the first thing that springs to one's mind when thinking of Neo4j, there are several problems that are amenable to graph solutions. For example, transitive authorizations and permissions can be modelled using graphs.
-  </p>
-  <p>
-    Graphtastic tries to bring in the awesomeness of Neo4j with the awesomeness of clojure. The traversal framework in Neo4j makes clojure a natural choice for writing expanders, predicate filters and evaluators.
-  </p>
-</div>
-<div class='project'>
-  <h3>
-    <a href='https://github.com/thoughtworks/irumugam'>irumugam</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='RSpec' href='#'>RSpec</a>
-    </li>
-    <li>
-      <a data-skill='Rack' href='#'>Rack</a>
-    </li>
-  </ul>
-  <p>
-    Irumugam - The two faced framework helps you setup a DSL for describing services contracts. Contracts are described using a Sinatra like DSL with expectations. You can point it to an end point and run it as a RSpec suite or you can run it as a server and provide mocks for your services.
-  </p>
-</div>
-<div class='project'>
-  <h3>
-    <a href='https://github.com/vagmi/pg-app-name'>PG App Name</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='Ruby' href='#'>Ruby</a>
-    </li>
-    <li>
-      <a data-skill='RSpec' href='#'>RSpec</a>
-    </li>
-    <li>
-      <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
-    </li>
-  </ul>
-  <p>
-    While we were debugging a polyglot application, we were setting the application name of the connections from various stacks to see if there were any issues with our connections. My colleague, who is an ardent fan of the Java way, jocularly remarked that setting the app name in Rails should be as simple as declaring a gem in the Gemfile to make the life of lazy Rails programmers easier. I found that there was no such gem, so I wrote a gem which when used with postgres sets the application name after opening the postgres connection. Take that Java devs.
-  </p>
-</div>
-<div class='project'>
-  <h3>
-    <a href='https://github.com/dharanasoft/haml-sprockets'>haml-sprockets</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='Ruby' href='#'>Ruby</a>
-    </li>
-    <li>
-      <a data-skill='RSpec' href='#'>RSpec</a>
-    </li>
-    <li>
-      <a data-skill='Sprockets' href='#'>Sprockets</a>
-    </li>
-    <li>
-      <a data-skill='HamlJS' href='#'>HamlJS</a>
-    </li>
-  </ul>
-  <p>
-    Rails 3.1 uses sprockets for its asset pipeline. Rails 3.1 has shown considerable love for SCSS and SASS but has left HAML out. I am a die hard HAML fans. I beleive that it is the best templating language around. The haml-js project brings haml to the browser. It was written for Node.js but works well with the browser too. This project helps build JST templates with hamljs.
-  </p>
-</div>
-<div class='project'>
-  <h3>
-    <a href='https://github.com/dharanasoft/quartz-jruby'>quartz-jruby</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='JRuby' href='#'>JRuby</a>
-    </li>
-    <li>
-      <a data-skill='Quartz' href='#'>Quartz</a>
-    </li>
-    <li>
-      <a data-skill='Java' href='#'>Java</a>
-    </li>
-  </ul>
-  <p>Quartz is an open source Java based scheduling framework. This project provides a JRuby wrapper over the cron API. The API is meant to be readable and really simple to create cron jobs in the java process space.</p>
-</div>
-<div class='project'>
-  <h3>
-    <a href='https://github.com/dharanasoft/rtf-highlight'>RTFHighlight.vim</a>
-  </h3>
-  <ul class='skills'>
-    <li>
-      <a data-skill='vim' href='#'>vim</a>
-    </li>
-  </ul>
-  <p>
-    This plugin is used to syntax highlight pieces of code to RTF and it automatically copies it to the OSX clipboard. This will be very useful in putting code into keynote presentations.
-  </p>
-</div></div>
+    <div class='span10' id='opensource'>
+      <p>I have always been very passionate about open source software. My first PC was a 486 DX2 with 3.5" floppy drives. I ran Slackware on it which came with PC Quest magazine on 6 floppies. It was fun installing and nuking my hard disk in that process. Since then, I've been participating in the community and contributing what I can in terms of code, documentation, discussions, etc. Here are some of the projects that I am proud of.</p>
+      <div class='project'>
+        <h3>
+          <a href='http://cloudterm.net/'>Cloudterm</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='Node' href='#'>Node</a>
+          </li>
+          <li>
+            <a data-skill='Docker' href='#'>Docker</a>
+          </li>
+        </ul>
+        <p>
+          This is like etherpad with a run button. It is still very alpha and a work in progress. I built it as a part of the
+          <a href='http://www.in50hrs.com/'>In50Hrs</a>
+          event. It uses Docker and Node.js to build a collaborative editor and wires it up with docker to provide a sandboxed environment to execute the any random stranger's code on my server.
+        </p>
+      </div>
+      <div class='project'>
+        <h3>
+          <a href='https://github.com/vagmi/graphtastic'>Graphtastic</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='Clojure' href='#'>Clojure</a>
+          </li>
+          <li>
+            <a data-skill='Neo4j' href='#'>Neo4j</a>
+          </li>
+        </ul>
+        <p>
+          Neo4j is a NoSQL Graph Database designed for high peformance transactional graphs. It is orders of magnitude more performant than relational databases for highly connected datasets where the primary usecase is navigation and path selection between them. Although, social network is the first thing that springs to one's mind when thinking of Neo4j, there are several problems that are amenable to graph solutions. For example, transitive authorizations and permissions can be modelled using graphs.
+        </p>
+        <p>
+          Graphtastic tries to bring in the awesomeness of Neo4j with the awesomeness of clojure. The traversal framework in Neo4j makes clojure a natural choice for writing expanders, predicate filters and evaluators.
+        </p>
+      </div>
+      <div class='project'>
+        <h3>
+          <a href='https://github.com/thoughtworks/irumugam'>irumugam</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='RSpec' href='#'>RSpec</a>
+          </li>
+          <li>
+            <a data-skill='Rack' href='#'>Rack</a>
+          </li>
+        </ul>
+        <p>
+          Irumugam - The two faced framework helps you setup a DSL for describing services contracts. Contracts are described using a Sinatra like DSL with expectations. You can point it to an end point and run it as a RSpec suite or you can run it as a server and provide mocks for your services.
+        </p>
+      </div>
+      <div class='project'>
+        <h3>
+          <a href='https://github.com/vagmi/pg-app-name'>PG App Name</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='Ruby' href='#'>Ruby</a>
+          </li>
+          <li>
+            <a data-skill='RSpec' href='#'>RSpec</a>
+          </li>
+          <li>
+            <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
+          </li>
+        </ul>
+        <p>
+          While we were debugging a polyglot application, we were setting the application name of the connections from various stacks to see if there were any issues with our connections. My colleague, who is an ardent fan of the Java way, jocularly remarked that setting the app name in Rails should be as simple as declaring a gem in the Gemfile to make the life of lazy Rails programmers easier. I found that there was no such gem, so I wrote a gem which when used with postgres sets the application name after opening the postgres connection. Take that Java devs.
+        </p>
+      </div>
+      <div class='project'>
+        <h3>
+          <a href='https://github.com/dharanasoft/haml-sprockets'>haml-sprockets</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='Ruby' href='#'>Ruby</a>
+          </li>
+          <li>
+            <a data-skill='RSpec' href='#'>RSpec</a>
+          </li>
+          <li>
+            <a data-skill='Sprockets' href='#'>Sprockets</a>
+          </li>
+          <li>
+            <a data-skill='HamlJS' href='#'>HamlJS</a>
+          </li>
+        </ul>
+        <p>
+          Rails 3.1 uses sprockets for its asset pipeline. Rails 3.1 has shown considerable love for SCSS and SASS but has left HAML out. I am a die hard HAML fans. I beleive that it is the best templating language around. The haml-js project brings haml to the browser. It was written for Node.js but works well with the browser too. This project helps build JST templates with hamljs.
+        </p>
+      </div>
+      <div class='project'>
+        <h3>
+          <a href='https://github.com/dharanasoft/quartz-jruby'>quartz-jruby</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='JRuby' href='#'>JRuby</a>
+          </li>
+          <li>
+            <a data-skill='Quartz' href='#'>Quartz</a>
+          </li>
+          <li>
+            <a data-skill='Java' href='#'>Java</a>
+          </li>
+        </ul>
+        <p>Quartz is an open source Java based scheduling framework. This project provides a JRuby wrapper over the cron API. The API is meant to be readable and really simple to create cron jobs in the java process space.</p>
+      </div>
+      <div class='project'>
+        <h3>
+          <a href='https://github.com/dharanasoft/rtf-highlight'>RTFHighlight.vim</a>
+        </h3>
+        <ul class='skills'>
+          <li>
+            <a data-skill='vim' href='#'>vim</a>
+          </li>
+        </ul>
+        <p>
+          This plugin is used to syntax highlight pieces of code to RTF and it automatically copies it to the OSX clipboard. This will be very useful in putting code into keynote presentations.
+        </p>
+      </div>
+    </div>
   </div>
   <div class='row'>
     <div class='span2 heading'>
@@ -282,525 +284,525 @@
       <p>Following is a brief summary of my work so far.</p>
       <div class='row'>
         <div class='row company' id='thoughtworks'>
-  <h3 class='span7 org'>
-  <a href='http://www.thougthworks.com' target='_blank'>Thoughtworks, Chennai</a>
-</h3>
-<div class='span3'>
-  <div class='well'>
-    Lead Consultant
-    <br />
-    Apr 2012 to present
-  </div>
-</div>
-<div class='span10 details'>
-  <p>I worked for a retail client in building their internal applications. The client is a large retail chain in Italy with over a 1000 stores operating under their name. The client is migrating its IT infrastructure from traditional monolithic model to a more flexible set of composable services.</p>
-  <div class='project'>
-    <h3>
-      Assortment Generation &amp; Configuration
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
-      </li>
-      <li>
-        <a data-skill='Clojure' href='#'>Clojure</a>
-      </li>
-      <li>
-        <a data-skill='Neo4j' href='#'>Neo4j</a>
-      </li>
-    </ul>
-    <p>Merchandisers configure attributes such as price, replenishment details and shelf availability for an article. As they cannot do this for 1000 stores directly, they organize the stores under various hierarchies and set attributes on such levels. The existing approach is to use a bunch of stored procedures and triggers to flatten out such configuration into intermediate tables which are then reconstructed on every change. The project takes a graph based rather than a set based approach to determine the value of attributes largely based on traversals and a little bit of help from lucene to look up arbitrary nodes/relationships.</p>
-  </div>
-  <div class='project'>
-    <h3>
-      Retail Analytics Dashboard
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Rails' href='#'>Rails</a>
-      </li>
-      <li>
-        <a data-skill='Coffeescript' href='#'>Coffeescript</a>
-      </li>
-      <li>
-        <a data-skill='Backbone.js' href='#'>Backbone.js</a>
-      </li>
-      <li>
-        <a data-skill='D3' href='#'>D3</a>
-      </li>
-      <li>
-        <a data-skill='NVD3' href='#'>NVD3</a>
-      </li>
-      <li>
-        <a data-skill='Jasmine' href='#'>Jasmine</a>
-      </li>
-      <li>
-        <a data-skill='RSpec' href='#'>RSpec</a>
-      </li>
-      <li>
-        <a data-skill='Cucumber' href='#'>Cucumber</a>
-      </li>
-      <li>
-        <a data-skill='Java' href='#'>Java</a>
-      </li>
-      <li>
-        <a data-skill='Spring MVC' href='#'>Spring MVC</a>
-      </li>
-      <li>
-        <a data-skill='Spring Batch' href='#'>Spring Batch</a>
-      </li>
-      <li>
-        <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
-      </li>
-    </ul>
-    <p>This app aims to be the merchandiser's workbench. It provides necessary reports using various metrics such as sales, margin, stock positions, etc. We wanted to make this app very intuitive and easy to use for the users. It tries to leverage heavily on visualization and graphs as much as possible. The computed data was imported from Teradata and staged into Postgres where view related computations were done on the Java layer. The Java layer exposed the information as a bunch of services which was then consumed by the Rails application.</p>
-  </div>
-  <div class='project'>
-    <h3>Contract Negotiation and Management System</h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Rails' href='#'>Rails</a>
-      </li>
-      <li>
-        <a data-skill='jQuery' href='#'>jQuery</a>
-      </li>
-      <li>
-        <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
-      </li>
-      <li>
-        <a data-skill='Java' href='#'>Java</a>
-      </li>
-      <li>
-        <a data-skill='Spring Batch' href='#'>Spring Batch</a>
-      </li>
-      <li>
-        <a data-skill='Cucumber' href='#'>Cucumber</a>
-      </li>
-      <li>
-        <a data-skill='RSpec' href='#'>RSpec</a>
-      </li>
-    </ul>
-    <p>This app is used by merchandisers to track the progress of their negotiations with suppliers regarding various discounts and terms of procurement and replenishment. The application maintains the final agreement as PDF and automates the workflow involved drafting and maintaining contracts.</p>
-  </div>
-</div>
-</div>
+          <h3 class='span7 org'>
+            <a href='http://www.thougthworks.com' target='_blank'>Thoughtworks, Chennai</a>
+          </h3>
+          <div class='span3'>
+            <div class='well'>
+              Lead Consultant
+              <br>
+              Apr 2012 to Sep 2013
+            </div>
+          </div>
+          <div class='span10 details'>
+            <p>I worked for a retail client in building their internal applications. The client is a large retail chain in Italy with over a 1000 stores operating under their name. The client is migrating its IT infrastructure from traditional monolithic model to a more flexible set of composable services.</p>
+            <div class='project'>
+              <h3>
+                Assortment Generation &amp; Configuration
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
+                </li>
+                <li>
+                  <a data-skill='Clojure' href='#'>Clojure</a>
+                </li>
+                <li>
+                  <a data-skill='Neo4j' href='#'>Neo4j</a>
+                </li>
+              </ul>
+              <p>Merchandisers configure attributes such as price, replenishment details and shelf availability for an article. As they cannot do this for 1000 stores directly, they organize the stores under various hierarchies and set attributes on such levels. The existing approach is to use a bunch of stored procedures and triggers to flatten out such configuration into intermediate tables which are then reconstructed on every change. The project takes a graph based rather than a set based approach to determine the value of attributes largely based on traversals and a little bit of help from lucene to look up arbitrary nodes/relationships.</p>
+            </div>
+            <div class='project'>
+              <h3>
+                Retail Analytics Dashboard
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='Coffeescript' href='#'>Coffeescript</a>
+                </li>
+                <li>
+                  <a data-skill='Backbone.js' href='#'>Backbone.js</a>
+                </li>
+                <li>
+                  <a data-skill='D3' href='#'>D3</a>
+                </li>
+                <li>
+                  <a data-skill='NVD3' href='#'>NVD3</a>
+                </li>
+                <li>
+                  <a data-skill='Jasmine' href='#'>Jasmine</a>
+                </li>
+                <li>
+                  <a data-skill='RSpec' href='#'>RSpec</a>
+                </li>
+                <li>
+                  <a data-skill='Cucumber' href='#'>Cucumber</a>
+                </li>
+                <li>
+                  <a data-skill='Java' href='#'>Java</a>
+                </li>
+                <li>
+                  <a data-skill='Spring MVC' href='#'>Spring MVC</a>
+                </li>
+                <li>
+                  <a data-skill='Spring Batch' href='#'>Spring Batch</a>
+                </li>
+                <li>
+                  <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
+                </li>
+              </ul>
+              <p>This app aims to be the merchandiser's workbench. It provides necessary reports using various metrics such as sales, margin, stock positions, etc. We wanted to make this app very intuitive and easy to use for the users. It tries to leverage heavily on visualization and graphs as much as possible. The computed data was imported from Teradata and staged into Postgres where view related computations were done on the Java layer. The Java layer exposed the information as a bunch of services which was then consumed by the Rails application.</p>
+            </div>
+            <div class='project'>
+              <h3>Contract Negotiation and Management System</h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='jQuery' href='#'>jQuery</a>
+                </li>
+                <li>
+                  <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
+                </li>
+                <li>
+                  <a data-skill='Java' href='#'>Java</a>
+                </li>
+                <li>
+                  <a data-skill='Spring Batch' href='#'>Spring Batch</a>
+                </li>
+                <li>
+                  <a data-skill='Cucumber' href='#'>Cucumber</a>
+                </li>
+                <li>
+                  <a data-skill='RSpec' href='#'>RSpec</a>
+                </li>
+              </ul>
+              <p>This app is used by merchandisers to track the progress of their negotiations with suppliers regarding various discounts and terms of procurement and replenishment. The application maintains the final agreement as PDF and automates the workflow involved drafting and maintaining contracts.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class='row'>
         <div class='row company' id='dharana'>
-  <h3 class='span7 org'>
-  <a href='http://www.dharanasoft.com' target='_blank'>Dharana Software Innovations Pvt Ltd</a>
-  <br />
-  <a href='http://www.artha42.com' target='_blank'>Artha42 Innovations Pvt Ltd</a>
-</h3>
-<div class='span3'>
-  <div class='well'>
-    CTO &amp; Co-Founder
-    <br />
-    Apr 2009 to Mar 2012
-  </div>
-</div>
-<div class='span10 details'>
-  <ul>
-    <li>Hired and Led a team of 16 developers</li>
-    <li>Architected and developed software solutions from conception to deployment</li>
-    <li>Built a product called <a href="http://www.keeprecruiting.com" target="_blank">KeepRecruiting</a></li>
-    <li>Engaged with clients to deliver quality solutions</li>
-    <li>Designed, marketed and conducted Rails workshops called <a href="http://www.railspundit.com" target="_blank">RailsPundit</a></li>
-    <li>Contributed to <a href="#opensource">Open Source</a></li>
-  </ul>
-  <p>Here are some of my work that I am proud of.</p>
-  <div class='project'>
-    <h3>
-      <a href='http://www.keeprecruiting.com' target='_blank'>KeepRecruiting</a>
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Rails' href='#'>Rails</a>
-      </li>
-      <li>
-        <a data-skill='jQuery' href='#'>jQuery</a>
-      </li>
-      <li>
-        <a data-skill='MySQL' href='#'>MySQL</a>
-      </li>
-      <li>
-        <a data-skill='Apache POI' href='#'>Apache POI</a>
-      </li>
-      <li>
-        <a data-skill='Sphinx' href='#'>Sphinx</a>
-      </li>
-    </ul>
-    <p>KeepRecruiting is an online candidate tracking system. It is a SaaS product that provides a turn key online job board. Organizations which sign up with the service can create their jobs site in a matter of a few minutes. It allows you to perform a full text search not only on the candidate's meta data but also inside the contents of the uploaded resume. It provides collaboration tools that help the HR managers and executives of an organization communicate more effectively with each other. It integrates with social networking sites like LinkedIn and Facebook. It allows candidates to apply with their LinkedIn account and provides the organization an approved view of the linked in profile including recommendations and extended profile data that is usually not available unless the candidate is already a part of your network. It also allows members of an organization to selectively publish the vacancy into their Facebook wall or a page they own.</p>
-  </div>
-  <div class='project'>
-    <h3>
-      <a href='http://www.highlightmagic.com' target='_blank'>HighlightMagic</a>
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Rails' href='#'>Rails</a>
-      </li>
-      <li>
-        <a data-skill='Coffeescript' href='#'>Coffeescript</a>
-      </li>
-      <li>
-        <a data-skill='Backbone.js' href='#'>Backbone.js</a>
-      </li>
-      <li>
-        <a data-skill='HTML5 Video &amp; File API' href='#'>HTML5 Video & File API</a>
-      </li>
-      <li>
-        <a data-skill='Faye' href='#'>Faye</a>
-      </li>
-      <li>
-        <a data-skill='FFMpeg' href='#'>FFMpeg</a>
-      </li>
-      <li>
-        <a data-skill='Amazon EC2 API' href='#'>Amazon EC2 API</a>
-      </li>
-      <li>
-        <a data-skill='Heroku' href='#'>Heroku</a>
-      </li>
-    </ul>
-    <p>HighlightMagic is a tool to be used by individuals aspiring to be professional sportsmen. These budding athletes could record their game, upload the video, create highlights and share them with coaches who could then comment on highlight. Usually these videos are huge (1 - 1.5 Gigs). The client wanted a non-sucky way to upload these files. I implemented a resumable file upload. We used the HTML5 file to split the file into chunks and posted them to the Rails server. The Rails server transfers it to Amazon S3. The user could either close his laptop lid or lose his internet connection without affecting the upload. As long as the browser tab remains open we can resume the file upload. In the meanwhile if the file that is being uploaded is in the format that the browser supports (for e.g., H264 on Chrome) we instantly show the video and allow the user to create clips. This is done using the File API's CreateObjectURL and the ability of the HTML5 video player to play files based on these object URLs. The upload process happens in the background and once the upload is done, the video is transcoded, the thumbnails generated and the clips are cut from the transcoded video. The user can then share these clips with coaches who can then comment on it. The transcoder was built as an independent service and is hosted on Amazon EC2 (us-east-1) and can be independently scaled. The main app is hosted on Heroku to be in the same availability zone.</p>
-  </div>
-  <div class='project'>
-    <h3>
-      <a href='http://www.auditionmagic.com' target='_blank'>AuditionMagic</a>
-    </h3>
-    <ul class='skills'>
-  <li>
-    <a data-skill='Rails' href='#'>Rails</a>
-  </li>
-  <li>
-    <a data-skill='CoffeeScript' href='#'>CoffeeScript</a>
-  </li>
-  <li>
-    <a data-skill='Backbone.js' href='#'>Backbone.js</a>
-  </li>
-  <li>
-    <a data-skill='Heroku' href='#'>Heroku</a>
-  </li>
-  <li>
-    <a data-skill='Zencoder API' href='#'>Zencoder API</a>
-  </li>
-</ul>
-    <p>
-      AuditionMagic allows casting agencies to manage their projects, roles, auditions, artist (talent) details and provides a collaborative environment for casting directors and reviewers to vote and comment on auditions for a given role. The members of the casting agency would upload videos and images of the auditions that took place. Videos were processed with zencoder to convert them to H264 MP4s. We used Rails 3.1, CoffeeScript and Backbone.js to build this as a single page app.
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      <a href='http://sharp-meadow-3952.herokuapp.com/' target='_blank'>GoNeighborly</a>
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Rails' href='#'>Rails</a>
-      </li>
-      <li>
-        <a data-skill='CoffeeScript' href='#'>CoffeeScript</a>
-      </li>
-      <li>
-        <a data-skill='Backbone.js' href='#'>Backbone.js</a>
-      </li>
-      <li>
-        <a data-skill='Faye' href='#'>Faye</a>
-      </li>
-      <li>
-        <a data-skill='MongoDB' href='#'>MongoDB</a>
-      </li>
-      <li>
-        <a data-skill='Heroku' href='#'>Heroku</a>
-      </li>
-      <li>
-        <a data-skill='Google Maps API' href='#'>Google Maps API</a>
-      </li>
-    </ul>
-    <p>
-      GoNeighborly is a service under the local-social category that tries to answer the question "What's happening in a given place?" It has a really cool Google Maps mashup that pops up a message on the marker when any other user comments on it. This was done with Faye, Backbone.js and the Google Maps API. The backend was MongoDB.
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      <a href='http://www.apolloprism.com/' target='_blank'>PHR Health Connect</a>
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Sinatra' href='#'>Sinatra</a>
-      </li>
-      <li>
-        <a data-skill='MongoDB' href='#'>MongoDB</a>
-      </li>
-      <li>
-        <a data-skill='Ruby' href='#'>Ruby</a>
-      </li>
-      <li>
-        <a data-skill='JRuby' href='#'>JRuby</a>
-      </li>
-      <li>
-        <a data-skill='jQuery' href='#'>jQuery</a>
-      </li>
-    </ul>
-    <p>
-      PHR Health Connect powers
-      <a href='http://www.apolloprism.com' target='_blank'>Apollo Prism.</a>
-      It provides a personal health record to an individual that can be maintained online across hospitals, clinics, consultants and labs. It has currently been deployed in Apollo Hospitals in prominent cities like Chennai, Bangalore and Delhi. When a patient walks in to a hospital and performs any medical tests, the results are imported on to the server using a agent installed in premises of the hospital. The patient is then notified via SMS that he can access his data and he does so by logging into ApolloPrism.com.
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      ClapsAndBoos
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Sinatra' href='#'>Sinatra</a>
-      </li>
-      <li>
-        <a data-skill='MongoDB' href='#'>MongoDB</a>
-      </li>
-      <li>
-        <a data-skill='jQuery' href='#'>jQuery</a>
-      </li>
-    </ul>
-    <p>
-      Claps and Boos is a movie review website with a difference. It sports a strong 11,000 plus strong member community which was completely bootstrapped. The entire site was built in little over 3 months. The site encourages participation using an XBox style achievements system called badges. Here are a few salient features for the app.
-    </p>
-  </div>
-  <ul>
-    <li>OpenID support for logging in with Google/Yahoo account</li>
-    <li>A review and independent article publishing platform with moderation</li>
-    <li>A flexible commenting system on Movies, Reviews and Articles</li>
-    <li>A flexible scoring system for both movies and reviews</li>
-    <li>Badges for user activity to improve engagement</li>
-  </ul>
-  <div class='project'>
-    <h3 class='project'>
-      Star Employee Intranet
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Rails' href='#'>Rails</a>
-      </li>
-      <li>
-        <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
-      </li>
-      <li>
-        <a data-skill='Apache POI' href='#'>Apache POI</a>
-      </li>
-      <li>
-        <a data-skill='PDFBox' href='#'>PDFBox</a>
-      </li>
-      <li>
-        <a data-skill='Sphinx' href='#'>Sphinx</a>
-      </li>
-      <li>
-        <a data-skill='Sammy.js' href='#'>Sammy.js</a>
-      </li>
-    </ul>
-    <p>
-      Star Employee Intranet helped its employees to share information, photos and blog posts internally within the organization. I also built a document management system that allowed the users to version files. Once uploaded, the files were parsed via Apache POI / PDFBox and converted to text. Sphinx then built an index of the text within the document which allowed users to search within the document they had uploaded. It also featured the ability to control access on any of these resources on the basis of an individual user or to a group. This project was started when the company was establishing presence in several towns and smaller business districts in India. Setting up their private network was expensive and a long drawn process. That is when the company envisioned the intranet on the cloud.
-    </p>
-    <p>
-      The intranet was packed with features like:
-    </p>
-    <ul>
-      <li>Document Sharing with versioning</li>
-      <li>Event and Calendar management</li>
-      <li>Gallery and Image uploads</li>
-      <li>A Discussion Forum</li>
-      <li>An internal corporate blog</li>
-    </ul>
-    <p>This enabled the client to leverage our tool to ease their communication.</p>
-  </div>
-</div>
-</div>
+          <h3 class='span7 org'>
+            <a href='http://www.dharanasoft.com' target='_blank'>Dharana Software Innovations Pvt Ltd</a>
+            <br>
+            <a href='http://www.artha42.com' target='_blank'>Artha42 Innovations Pvt Ltd</a>
+          </h3>
+          <div class='span3'>
+            <div class='well'>
+              CTO &amp; Co-Founder
+              <br>
+              Apr 2009 to Mar 2012
+            </div>
+          </div>
+          <div class='span10 details'>
+            <ul>
+              <li>Hired and Led a team of 16 developers</li>
+              <li>Architected and developed software solutions from conception to deployment</li>
+              <li>Built a product called <a href="http://www.keeprecruiting.com" target="_blank">KeepRecruiting</a></li>
+              <li>Engaged with clients to deliver quality solutions</li>
+              <li>Designed, marketed and conducted Rails workshops called <a href="http://www.railspundit.com" target="_blank">RailsPundit</a></li>
+              <li>Contributed to <a href="#opensource">Open Source</a></li>
+            </ul>
+            <p>Here are some of my work that I am proud of.</p>
+            <div class='project'>
+              <h3>
+                <a href='http://www.keeprecruiting.com' target='_blank'>KeepRecruiting</a>
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='jQuery' href='#'>jQuery</a>
+                </li>
+                <li>
+                  <a data-skill='MySQL' href='#'>MySQL</a>
+                </li>
+                <li>
+                  <a data-skill='Apache POI' href='#'>Apache POI</a>
+                </li>
+                <li>
+                  <a data-skill='Sphinx' href='#'>Sphinx</a>
+                </li>
+              </ul>
+              <p>KeepRecruiting is an online candidate tracking system. It is a SaaS product that provides a turn key online job board. Organizations which sign up with the service can create their jobs site in a matter of a few minutes. It allows you to perform a full text search not only on the candidate's meta data but also inside the contents of the uploaded resume. It provides collaboration tools that help the HR managers and executives of an organization communicate more effectively with each other. It integrates with social networking sites like LinkedIn and Facebook. It allows candidates to apply with their LinkedIn account and provides the organization an approved view of the linked in profile including recommendations and extended profile data that is usually not available unless the candidate is already a part of your network. It also allows members of an organization to selectively publish the vacancy into their Facebook wall or a page they own.</p>
+            </div>
+            <div class='project'>
+              <h3>
+                <a href='http://www.highlightmagic.com' target='_blank'>HighlightMagic</a>
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='Coffeescript' href='#'>Coffeescript</a>
+                </li>
+                <li>
+                  <a data-skill='Backbone.js' href='#'>Backbone.js</a>
+                </li>
+                <li>
+                  <a data-skill='HTML5 Video &amp; File API' href='#'>HTML5 Video & File API</a>
+                </li>
+                <li>
+                  <a data-skill='Faye' href='#'>Faye</a>
+                </li>
+                <li>
+                  <a data-skill='FFMpeg' href='#'>FFMpeg</a>
+                </li>
+                <li>
+                  <a data-skill='Amazon EC2 API' href='#'>Amazon EC2 API</a>
+                </li>
+                <li>
+                  <a data-skill='Heroku' href='#'>Heroku</a>
+                </li>
+              </ul>
+              <p>HighlightMagic is a tool to be used by individuals aspiring to be professional sportsmen. These budding athletes could record their game, upload the video, create highlights and share them with coaches who could then comment on highlight. Usually these videos are huge (1 - 1.5 Gigs). The client wanted a non-sucky way to upload these files. I implemented a resumable file upload. We used the HTML5 file to split the file into chunks and posted them to the Rails server. The Rails server transfers it to Amazon S3. The user could either close his laptop lid or lose his internet connection without affecting the upload. As long as the browser tab remains open we can resume the file upload. In the meanwhile if the file that is being uploaded is in the format that the browser supports (for e.g., H264 on Chrome) we instantly show the video and allow the user to create clips. This is done using the File API's CreateObjectURL and the ability of the HTML5 video player to play files based on these object URLs. The upload process happens in the background and once the upload is done, the video is transcoded, the thumbnails generated and the clips are cut from the transcoded video. The user can then share these clips with coaches who can then comment on it. The transcoder was built as an independent service and is hosted on Amazon EC2 (us-east-1) and can be independently scaled. The main app is hosted on Heroku to be in the same availability zone.</p>
+            </div>
+            <div class='project'>
+              <h3>
+                <a href='http://www.auditionmagic.com' target='_blank'>AuditionMagic</a>
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='CoffeeScript' href='#'>CoffeeScript</a>
+                </li>
+                <li>
+                  <a data-skill='Backbone.js' href='#'>Backbone.js</a>
+                </li>
+                <li>
+                  <a data-skill='Heroku' href='#'>Heroku</a>
+                </li>
+                <li>
+                  <a data-skill='Zencoder API' href='#'>Zencoder API</a>
+                </li>
+              </ul>
+              <p>
+                AuditionMagic allows casting agencies to manage their projects, roles, auditions, artist (talent) details and provides a collaborative environment for casting directors and reviewers to vote and comment on auditions for a given role. The members of the casting agency would upload videos and images of the auditions that took place. Videos were processed with zencoder to convert them to H264 MP4s. We used Rails 3.1, CoffeeScript and Backbone.js to build this as a single page app.
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                <a href='http://sharp-meadow-3952.herokuapp.com/' target='_blank'>GoNeighborly</a>
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='CoffeeScript' href='#'>CoffeeScript</a>
+                </li>
+                <li>
+                  <a data-skill='Backbone.js' href='#'>Backbone.js</a>
+                </li>
+                <li>
+                  <a data-skill='Faye' href='#'>Faye</a>
+                </li>
+                <li>
+                  <a data-skill='MongoDB' href='#'>MongoDB</a>
+                </li>
+                <li>
+                  <a data-skill='Heroku' href='#'>Heroku</a>
+                </li>
+                <li>
+                  <a data-skill='Google Maps API' href='#'>Google Maps API</a>
+                </li>
+              </ul>
+              <p>
+                GoNeighborly is a service under the local-social category that tries to answer the question "What's happening in a given place?" It has a really cool Google Maps mashup that pops up a message on the marker when any other user comments on it. This was done with Faye, Backbone.js and the Google Maps API. The backend was MongoDB.
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                <a href='http://www.apolloprism.com/' target='_blank'>PHR Health Connect</a>
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Sinatra' href='#'>Sinatra</a>
+                </li>
+                <li>
+                  <a data-skill='MongoDB' href='#'>MongoDB</a>
+                </li>
+                <li>
+                  <a data-skill='Ruby' href='#'>Ruby</a>
+                </li>
+                <li>
+                  <a data-skill='JRuby' href='#'>JRuby</a>
+                </li>
+                <li>
+                  <a data-skill='jQuery' href='#'>jQuery</a>
+                </li>
+              </ul>
+              <p>
+                PHR Health Connect powers
+                <a href='http://www.apolloprism.com' target='_blank'>Apollo Prism.</a>
+                It provides a personal health record to an individual that can be maintained online across hospitals, clinics, consultants and labs. It has currently been deployed in Apollo Hospitals in prominent cities like Chennai, Bangalore and Delhi. When a patient walks in to a hospital and performs any medical tests, the results are imported on to the server using a agent installed in premises of the hospital. The patient is then notified via SMS that he can access his data and he does so by logging into ApolloPrism.com.
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                ClapsAndBoos
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Sinatra' href='#'>Sinatra</a>
+                </li>
+                <li>
+                  <a data-skill='MongoDB' href='#'>MongoDB</a>
+                </li>
+                <li>
+                  <a data-skill='jQuery' href='#'>jQuery</a>
+                </li>
+              </ul>
+              <p>
+                Claps and Boos is a movie review website with a difference. It sports a strong 11,000 plus strong member community which was completely bootstrapped. The entire site was built in little over 3 months. The site encourages participation using an XBox style achievements system called badges. Here are a few salient features for the app.
+              </p>
+            </div>
+            <ul>
+              <li>OpenID support for logging in with Google/Yahoo account</li>
+              <li>A review and independent article publishing platform with moderation</li>
+              <li>A flexible commenting system on Movies, Reviews and Articles</li>
+              <li>A flexible scoring system for both movies and reviews</li>
+              <li>Badges for user activity to improve engagement</li>
+            </ul>
+            <div class='project'>
+              <h3 class='project'>
+                Star Employee Intranet
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Rails' href='#'>Rails</a>
+                </li>
+                <li>
+                  <a data-skill='PostgreSQL' href='#'>PostgreSQL</a>
+                </li>
+                <li>
+                  <a data-skill='Apache POI' href='#'>Apache POI</a>
+                </li>
+                <li>
+                  <a data-skill='PDFBox' href='#'>PDFBox</a>
+                </li>
+                <li>
+                  <a data-skill='Sphinx' href='#'>Sphinx</a>
+                </li>
+                <li>
+                  <a data-skill='Sammy.js' href='#'>Sammy.js</a>
+                </li>
+              </ul>
+              <p>
+                Star Employee Intranet helped its employees to share information, photos and blog posts internally within the organization. I also built a document management system that allowed the users to version files. Once uploaded, the files were parsed via Apache POI / PDFBox and converted to text. Sphinx then built an index of the text within the document which allowed users to search within the document they had uploaded. It also featured the ability to control access on any of these resources on the basis of an individual user or to a group. This project was started when the company was establishing presence in several towns and smaller business districts in India. Setting up their private network was expensive and a long drawn process. That is when the company envisioned the intranet on the cloud.
+              </p>
+              <p>
+                The intranet was packed with features like:
+              </p>
+              <ul>
+                <li>Document Sharing with versioning</li>
+                <li>Event and Calendar management</li>
+                <li>Gallery and Image uploads</li>
+                <li>A Discussion Forum</li>
+                <li>An internal corporate blog</li>
+              </ul>
+              <p>This enabled the client to leverage our tool to ease their communication.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class='row'>
         <div class='row company' id='sap'>
-  <h3 class='span7 org'>
-  <a href='http://www.sap.com/india/about/company/saplabs/index.epx' target='_blank'>SAP Labs India</a>
-</h3>
-<div class='span3'>
-  <div class='well'>
-    Associate Architect
-    <br />
-    Oct 2004 to Mar 2009
-  </div>
-</div>
-<div class='span10 details'>
-  <p>
-    Over the course of my career at SAP Research and Development Labs, I had worked on a wide variety of technologies starting with InstallShield, C#/.NET, Java, HTML5 and Adobe Flex/ActionScript. Here is a summary of my accomplishments at SAP.
-  </p>
-  <ul>
-    <li>Led teams on different technologies while seamlessly moving between them</li>
-    <li>Worked on a wide array of technologies</li>
-    <li>Championed for a simpler build system to reduce the turn around time for bugs</li>
-    <li>Contributed to the installation team winning the simplicity values award of 2005</li>
-  </ul>
-  <div class='project'>
-    <h3>
-      AUI Framework
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='Adobe Flex' href='#'>Adobe Flex</a>
-      </li>
-      <li>
-        <a data-skill='ActionScript' href='#'>ActionScript</a>
-      </li>
-    </ul>
-    <p>
-      I was leading a team of developers. As a part of the business user tools initiative under SAP, we were commissioned to build a UI framework that could be used to build various business reports and analytics widgets on top of the Flex framework. We built the framework initially based on the open source
-      <a href='http://sourceforge.net/adobe/cairngorm/wiki/About/'>Cairngorm 2 framework.</a>
-      However we found that for large applications the size of the SWF was huge and the build times were quite large. We then evaluated the Polestar framework and modified it to suit our requirements. The Polestar project implemented the Eclipse's platform and runtime libraries in Flex. I forked the project and added the ability to discover plugins and load plugins based on extension points and extensions. I also built a client side context framework that extended the AS3 Binding across different plugins (SWFs).
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      NWDI Client for .Net
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='C#' href='#'>C#</a>
-      </li>
-      <li>
-        <a data-skill='.Net' href='#'>.Net</a>
-      </li>
-    </ul>
-    <p>
-      I led the team in building a .NET client for the Netweaver Development Infrastructure. I interfaced with the web services provided by the service side components like SLD, CBS and the DTR. I also built a .NET wrapper around the DTR library that was later integrated with Visual Studio's IVsHierarchy to provide checkin, checkout, display and other source control integration facilities.
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      C# for Eclipse
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='C#' href='#'>C#</a>
-      </li>
-      <li>
-        <a data-skill='MDBG' href='#'>MDBG</a>
-      </li>
-      <li>
-        <a data-skill='Java' href='#'>Java</a>
-      </li>
-      <li>
-        <a data-skill='Eclipse PDT' href='#'>Eclipse PDT</a>
-      </li>
-    </ul>
-    <p>
-      We demonstrated this as a proof of concept. We integrated the C# editor, the msbuild project model and the Antechinus C# editor with the existing SAP NWDS (Netweaver Developer Studio) to show that we could build .NET projects and more specifically the Occasionally Connected Apps (OCA.NET) projects right inside NWDS that could leverage all the facilities provided by existing eclipse plugins provided by NWDS for integrating to NWDI and other SAP specific plugins. We achieved the complete functionality of setting breakpoints, inspecting locals and evaluating watch expressions using the Eclipse's default debug perspective.
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      SAP Environment Checker
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='C#' href='#'>C#</a>
-      </li>
-      <li>
-        <a data-skill='.NET' href='#'>.NET</a>
-      </li>
-      <li>
-        <a data-skill='IronPython' href='#'>IronPython</a>
-      </li>
-      <li>
-        <a data-skill='XML' href='#'>XML</a>
-      </li>
-    </ul>
-    <p>
-      I had written SAP Environment Checker to help me analyze the health of a system by detecting certain aspects like presence of DLLs in the right place, presence of registry entries, an ability to connect with the database and check the version of the client database and so on. I had built it in such a manner that the tool itself was really small. You could extend the tool by implementing a few interfaces and dropping the assembly into the plugins directory.  The plugins would be dynamically loaded via reflection and any corresponding entries in the ".env" file could be processed. The results were tabulated using XSLT to present it as a nice HTML page that could be printed out. The tool also sported a IronPython plugin that could run any snippet of python code that could provide a similar result.
-    </p>
-  </div>
-  <div class='project'>
-    <h3>
-      SAP CRM Mobile Client 4.0 and 5.0 Installers
-    </h3>
-    <ul class='skills'>
-      <li>
-        <a data-skill='InstallShield' href='#'>InstallShield</a>
-      </li>
-      <li>
-        <a data-skill='MSI' href='#'>MSI</a>
-      </li>
-      <li>
-        <a data-skill='InstallScript' href='#'>InstallScript</a>
-      </li>
-      <li>
-        <a data-skill='C#' href='#'>C#</a>
-      </li>
-      <li>
-        <a data-skill='.NET' href='#'>.NET</a>
-      </li>
-    </ul>
-    <p>
-      SAP CRM Mobile Client in 4.0 was based on VBA and the 5.0 version was based on .NET. We were maintaining the CRM 4.0 installer package as it was already under SP4 when I joined however the work on 5.0 package was just beginning. The 4.0 installer took about 13 hours to build and was difficult to service upgrades. I had architected the 5.0 setup to do the following.
-      <ul>
-        <li>Modularize the packages to achieve better serviceability.</li>
-        <li>Achieved over 60% reduction in size for frequently serviceable components like the client framework and controls.</li>
-        <li>Reduced effective build time from 8 hours to 40 minutes by making the setup build process as a part of the component build.</li>
-        <li>This enabled us to perform more Develop-Test-Fix cycles increasing the overall quality of the product</li>
-        <li>Adopted a "Release early, Release often" approach to enable quicker bug fix cycles. Instead of performing all the quality validation using the QM team, basic smoke tests were done and the Installation package was released to the application developers for internal use.</li>
-      </ul>
-    </p>
-  </div>
-</div>
-</div>
+          <h3 class='span7 org'>
+            <a href='http://www.sap.com/india/about/company/saplabs/index.epx' target='_blank'>SAP Labs India</a>
+          </h3>
+          <div class='span3'>
+            <div class='well'>
+              Associate Architect
+              <br>
+              Oct 2004 to Mar 2009
+            </div>
+          </div>
+          <div class='span10 details'>
+            <p>
+              Over the course of my career at SAP Research and Development Labs, I had worked on a wide variety of technologies starting with InstallShield, C#/.NET, Java, HTML5 and Adobe Flex/ActionScript. Here is a summary of my accomplishments at SAP.
+            </p>
+            <ul>
+              <li>Led teams on different technologies while seamlessly moving between them</li>
+              <li>Worked on a wide array of technologies</li>
+              <li>Championed for a simpler build system to reduce the turn around time for bugs</li>
+              <li>Contributed to the installation team winning the simplicity values award of 2005</li>
+            </ul>
+            <div class='project'>
+              <h3>
+                AUI Framework
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='Adobe Flex' href='#'>Adobe Flex</a>
+                </li>
+                <li>
+                  <a data-skill='ActionScript' href='#'>ActionScript</a>
+                </li>
+              </ul>
+              <p>
+                I was leading a team of developers. As a part of the business user tools initiative under SAP, we were commissioned to build a UI framework that could be used to build various business reports and analytics widgets on top of the Flex framework. We built the framework initially based on the open source
+                <a href='http://sourceforge.net/adobe/cairngorm/wiki/About/'>Cairngorm 2 framework.</a>
+                However we found that for large applications the size of the SWF was huge and the build times were quite large. We then evaluated the Polestar framework and modified it to suit our requirements. The Polestar project implemented the Eclipse's platform and runtime libraries in Flex. I forked the project and added the ability to discover plugins and load plugins based on extension points and extensions. I also built a client side context framework that extended the AS3 Binding across different plugins (SWFs).
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                NWDI Client for .Net
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='C#' href='#'>C#</a>
+                </li>
+                <li>
+                  <a data-skill='.Net' href='#'>.Net</a>
+                </li>
+              </ul>
+              <p>
+                I led the team in building a .NET client for the Netweaver Development Infrastructure. I interfaced with the web services provided by the service side components like SLD, CBS and the DTR. I also built a .NET wrapper around the DTR library that was later integrated with Visual Studio's IVsHierarchy to provide checkin, checkout, display and other source control integration facilities.
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                C# for Eclipse
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='C#' href='#'>C#</a>
+                </li>
+                <li>
+                  <a data-skill='MDBG' href='#'>MDBG</a>
+                </li>
+                <li>
+                  <a data-skill='Java' href='#'>Java</a>
+                </li>
+                <li>
+                  <a data-skill='Eclipse PDT' href='#'>Eclipse PDT</a>
+                </li>
+              </ul>
+              <p>
+                We demonstrated this as a proof of concept. We integrated the C# editor, the msbuild project model and the Antechinus C# editor with the existing SAP NWDS (Netweaver Developer Studio) to show that we could build .NET projects and more specifically the Occasionally Connected Apps (OCA.NET) projects right inside NWDS that could leverage all the facilities provided by existing eclipse plugins provided by NWDS for integrating to NWDI and other SAP specific plugins. We achieved the complete functionality of setting breakpoints, inspecting locals and evaluating watch expressions using the Eclipse's default debug perspective.
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                SAP Environment Checker
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='C#' href='#'>C#</a>
+                </li>
+                <li>
+                  <a data-skill='.NET' href='#'>.NET</a>
+                </li>
+                <li>
+                  <a data-skill='IronPython' href='#'>IronPython</a>
+                </li>
+                <li>
+                  <a data-skill='XML' href='#'>XML</a>
+                </li>
+              </ul>
+              <p>
+                I had written SAP Environment Checker to help me analyze the health of a system by detecting certain aspects like presence of DLLs in the right place, presence of registry entries, an ability to connect with the database and check the version of the client database and so on. I had built it in such a manner that the tool itself was really small. You could extend the tool by implementing a few interfaces and dropping the assembly into the plugins directory.  The plugins would be dynamically loaded via reflection and any corresponding entries in the ".env" file could be processed. The results were tabulated using XSLT to present it as a nice HTML page that could be printed out. The tool also sported a IronPython plugin that could run any snippet of python code that could provide a similar result.
+              </p>
+            </div>
+            <div class='project'>
+              <h3>
+                SAP CRM Mobile Client 4.0 and 5.0 Installers
+              </h3>
+              <ul class='skills'>
+                <li>
+                  <a data-skill='InstallShield' href='#'>InstallShield</a>
+                </li>
+                <li>
+                  <a data-skill='MSI' href='#'>MSI</a>
+                </li>
+                <li>
+                  <a data-skill='InstallScript' href='#'>InstallScript</a>
+                </li>
+                <li>
+                  <a data-skill='C#' href='#'>C#</a>
+                </li>
+                <li>
+                  <a data-skill='.NET' href='#'>.NET</a>
+                </li>
+              </ul>
+              <p>
+                SAP CRM Mobile Client in 4.0 was based on VBA and the 5.0 version was based on .NET. We were maintaining the CRM 4.0 installer package as it was already under SP4 when I joined however the work on 5.0 package was just beginning. The 4.0 installer took about 13 hours to build and was difficult to service upgrades. I had architected the 5.0 setup to do the following.
+                <ul>
+                  <li>Modularize the packages to achieve better serviceability.</li>
+                  <li>Achieved over 60% reduction in size for frequently serviceable components like the client framework and controls.</li>
+                  <li>Reduced effective build time from 8 hours to 40 minutes by making the setup build process as a part of the component build.</li>
+                  <li>This enabled us to perform more Develop-Test-Fix cycles increasing the overall quality of the product</li>
+                  <li>Adopted a "Release early, Release often" approach to enable quicker bug fix cycles. Instead of performing all the quality validation using the QM team, basic smoke tests were done and the Installation package was released to the application developers for internal use.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class='row'>
         <div class='row company' id='slash'>
-            <h3 class='span7 org'>
-              <a href='http://www.slashsupport.com' target='_blank'>SlashSupport India Pvt Ltd</a>
-              <br />
-              A CSS Group Company
-            </h3>
-            <div class='span3'>
-              <div class='well'>
-                Team Lead
-                <br />
-                Jun 2003 to Oct 2004
-              </div>
-            </div>
-            <div class='span10 details'>
-              <p>
-                I largely worked on InstallShield's setup packaging system. I gained significant insight into how Windows and MSI work. I contributed a lot to the WiX toolset community.
-              </p>
-              <ul>
-                <li>Attained authoritative knowledge on Windows Installer and Windows Installer API</li>
-                <li>Developed several Windows Installer extensions using C++, InstallScript, VBScript, and JScript</li>
-                <li>Attained a good knowledge of InstallShield Setup Project's architecture</li>
-                <li>Mentored new engineers on Windows Installer based products and the support process</li>
-                <li>Handled technical escalations from the India team</li>
-                <li>Pioneered Voice Support for InstallShield's EMEA Support</li>
-                <li>Performed Quality Reviews for measuring the Technical and Communication Skills of our peers</li>
-              </ul>
+          <h3 class='span7 org'>
+            <a href='http://www.slashsupport.com' target='_blank'>SlashSupport India Pvt Ltd</a>
+            <br>
+            A CSS Group Company
+          </h3>
+          <div class='span3'>
+            <div class='well'>
+              Team Lead
+              <br>
+              Jun 2003 to Oct 2004
             </div>
           </div>
+          <div class='span10 details'>
+            <p>
+              I largely worked on InstallShield's setup packaging system. I gained significant insight into how Windows and MSI work. I contributed a lot to the WiX toolset community.
+            </p>
+            <ul>
+              <li>Attained authoritative knowledge on Windows Installer and Windows Installer API</li>
+              <li>Developed several Windows Installer extensions using C++, InstallScript, VBScript, and JScript</li>
+              <li>Attained a good knowledge of InstallShield Setup Project's architecture</li>
+              <li>Mentored new engineers on Windows Installer based products and the support process</li>
+              <li>Handled technical escalations from the India team</li>
+              <li>Pioneered Voice Support for InstallShield's EMEA Support</li>
+              <li>Performed Quality Reviews for measuring the Technical and Communication Skills of our peers</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class='row'>
         <div class='row company' id='bajaj'>
-            <h3 class='span7 org'>
-              <a href='http://www.bajajallianz.com' target='_blank'>Bajaj Allianz General Insurance Co Ltd</a>
-            </h3>
-            <div class='span3'>
-              <div class='well'>
-                IT Coordinator
-                <br />
-                Mar 2002 to Jun 2003
-              </div>
-            </div>
-            <div class='span10 details'>
-              <ul>
-                <li>Developed new modules in VB, ASP and MS Access to support in-house IT needs</li>
-                <li>Developed a module to automate the process of Endorsements using VB and ASP</li>
-                <li>Created CSV file parsers to read and populate the various "Registers" tables into the database using Java, JSP, JAXP, Struts</li>
-                <li>Created an Intranet Module to generate and maintain quotations for Householders Policy (An Insurance Product) using JSP/Struts</li>
-              </ul>
+          <h3 class='span7 org'>
+            <a href='http://www.bajajallianz.com' target='_blank'>Bajaj Allianz General Insurance Co Ltd</a>
+          </h3>
+          <div class='span3'>
+            <div class='well'>
+              IT Coordinator
+              <br>
+              Mar 2002 to Jun 2003
             </div>
           </div>
+          <div class='span10 details'>
+            <ul>
+              <li>Developed new modules in VB, ASP and MS Access to support in-house IT needs</li>
+              <li>Developed a module to automate the process of Endorsements using VB and ASP</li>
+              <li>Created CSV file parsers to read and populate the various "Registers" tables into the database using Java, JSP, JAXP, Struts</li>
+              <li>Created an Intranet Module to generate and maintain quotations for Householders Policy (An Insurance Product) using JSP/Struts</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -808,50 +810,52 @@
     <div class='span2 heading'>
       <p>Testimonials</p>
     </div>
-    <div class='span10' id='testimonials'><p>Ryan Schilling (A DharanaSoft Client) - CEO, GoNeighborly</p>
-<blockquote>
-  This is my second startup and I've worked with no less than a half dozen development firms and probably two dozen engineers/designers.  You are by far the most well informed and talented hacker I've worked with.  I would say that it is not only your ability to code or speed or any of the normal measurements most developers get graded on that sets you apart.  Having lived in San Francisco and known startup founders and engineers, I see clearly that your talent is both being able to clearly understand the vision and build innovative solutions.  Most importantly you have a tremendous feel for product function/features.  I have not seen this in any of the people I've worked with.
-</blockquote>
-<p>Anand M S (While I was working at SAP Labs) - Senior Software Engineer</p>
-<blockquote>
-  The first thing that amazed me about Vagmi was his ability to talk at length on any topic, especially technical, on the fly. The friendly, approachable nature makes it a pleasure interacting with this knowledge bank. I've seen him as a very diligent worker, keen on learning new things and more importantly sharing and applying them at work whenever possible. I'm sure he will be an invaluable resource in any organization or team.
-</blockquote>
-<p>Prabhu Subbaih (When I was working with SlashSupport) - Team Lead</p>
-<blockquote>
-  Vagmi is a hard core technical person who knows in &amp; out of all the open source technologies. He has a passion to explore in depth in all the technology aspects, showed faster growth from an engineer to become a team lead in shorter period of time when I worked with him in Slashsupport.
-</blockquote>
-<p>Muraly Krish (When I was working with Bajaj Allianz) - Manager Operations</p>
-<blockquote>
-  Vagmi - A gem who had too much knowledge and capability whom I could see growing in to more than where was then.
-  <br />
-  Ideally should move on to create / build his own creations with the kind of creative brain, energy and enterprenuership skills.
-</blockquote></div>
+    <div class='span10' id='testimonials'>
+      <p>Ryan Schilling (A DharanaSoft Client) - CEO, GoNeighborly</p>
+      <blockquote>
+        This is my second startup and I've worked with no less than a half dozen development firms and probably two dozen engineers/designers.  You are by far the most well informed and talented hacker I've worked with.  I would say that it is not only your ability to code or speed or any of the normal measurements most developers get graded on that sets you apart.  Having lived in San Francisco and known startup founders and engineers, I see clearly that your talent is both being able to clearly understand the vision and build innovative solutions.  Most importantly you have a tremendous feel for product function/features.  I have not seen this in any of the people I've worked with.
+      </blockquote>
+      <p>Anand M S (While I was working at SAP Labs) - Senior Software Engineer</p>
+      <blockquote>
+        The first thing that amazed me about Vagmi was his ability to talk at length on any topic, especially technical, on the fly. The friendly, approachable nature makes it a pleasure interacting with this knowledge bank. I've seen him as a very diligent worker, keen on learning new things and more importantly sharing and applying them at work whenever possible. I'm sure he will be an invaluable resource in any organization or team.
+      </blockquote>
+      <p>Prabhu Subbaih (When I was working with SlashSupport) - Team Lead</p>
+      <blockquote>
+        Vagmi is a hard core technical person who knows in &amp; out of all the open source technologies. He has a passion to explore in depth in all the technology aspects, showed faster growth from an engineer to become a team lead in shorter period of time when I worked with him in Slashsupport.
+      </blockquote>
+      <p>Muraly Krish (When I was working with Bajaj Allianz) - Manager Operations</p>
+      <blockquote>
+        Vagmi - A gem who had too much knowledge and capability whom I could see growing in to more than where was then.
+        <br>
+        Ideally should move on to create / build his own creations with the kind of creative brain, energy and enterprenuership skills.
+      </blockquote>
+    </div>
   </div>
   <div class='row'>
     <div class='span2 heading'>
       <p>Education</p>
     </div>
     <div class='span10' id='education'>
-          <table class='table table-bordered table-striped'>
-            <tbody>
-              <tr>
-                <td>2002 - 2004</td>
-                <td>M.Sc. Information Technology</td>
-                <td>University of Madras</td>
-              </tr>
-              <tr>
-                <td>1998-2001</td>
-                <td>GNIIT</td>
-                <td>NIIT</td>
-              </tr>
-              <tr>
-                <td>1998 - 2001</td>
-                <td>B.Sc. Physics</td>
-                <td>D.G. Vaishnav College</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <table class='table table-bordered table-striped'>
+        <tbody>
+          <tr>
+            <td>2002 - 2004</td>
+            <td>M.Sc. Information Technology</td>
+            <td>University of Madras</td>
+          </tr>
+          <tr>
+            <td>1998-2001</td>
+            <td>GNIIT</td>
+            <td>NIIT</td>
+          </tr>
+          <tr>
+            <td>1998 - 2001</td>
+            <td>B.Sc. Physics</td>
+            <td>D.G. Vaishnav College</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
