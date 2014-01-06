@@ -78,6 +78,8 @@
       %p Experience
       %ul#exp-nav.nav.nav-list
         %li
+          %a(href="#reducedata") Reduce Data
+        %li
           %a(href="#thoughtworks") Thoughtworks
         %li
           %a(href="#dharana") Dharana &amp; Artha42
@@ -90,7 +92,7 @@
     
     .span10#experience
       %p Following is a brief summary of my work so far.
-      - %w(thoughtworks dharana sap slash bajaj).each do |company|
+      - %w(reducedata thoughtworks dharana sap slash bajaj).each do |company|
         .row
           =partial "company", locals: {company: company}
   .row
