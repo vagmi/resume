@@ -1,0 +1,144 @@
+/* line 1, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+.navbar-right {
+  float: right !important; }
+
+@media (min-width: 1200px) {
+  /* line 4, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .container {
+    width: 960px; } }
+@media (max-width: 767px) {
+  /* line 11, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-right {
+    margin-right: 20px; }
+
+  /* line 13, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-header:after {
+    clear: none; }
+
+  /* line 16, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-nav.navbar-right > li {
+    float: left; }
+
+  /* line 17, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-collapse:before {
+    clear: both; }
+
+  /* line 18, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-collapse {
+    overflow-y: hidden; }
+
+  /* line 19, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-collapse.in {
+    overflow-y: visible; }
+
+  /* line 20, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+  .navbar-collapse.in > ul {
+    border-top: 1px double #101010; } }
+/* line 22, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+.main {
+  margin-top: 40px; }
+
+/* line 27, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */ }
+
+/* Wrapper for page content to push down footer */
+/* line 33, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -35px;
+  /* Pad bottom by footer height */
+  padding: 0 0 35px; }
+
+/* Set the fixed height of the footer here */
+/* line 44, /Users/vagmi/work/resume/source/stylesheets/bootstrap-addons.scss */
+#footer {
+  height: 30px;
+  padding: 7px 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd; }
+
+/* line 8, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 2em; }
+
+/* line 12, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+.main.content {
+  padding-top: 40px; }
+
+@media screen {
+  /* line 16, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+  .print-only {
+    display: none; } }
+/* line 21, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+header.container .photo-container {
+  text-align: center; }
+/* line 24, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+header.container img.photo {
+  width: 150px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px; }
+/* line 28, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+header.container h1 {
+  margin-top: 0px; }
+/* line 31, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+header.container ul.social_links {
+  padding-left: 0; }
+  /* line 33, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+  header.container ul.social_links li {
+    display: inline;
+    display: inline-block;
+    margin: 1em; }
+    /* line 37, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+    header.container ul.social_links li a {
+      font-size: 3em;
+      text-decoration: none;
+      color: #333; }
+/* line 44, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+header.container .well > ul.overview {
+  padding-left: 0;
+  margin-left: 1em; }
+
+/* line 50, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+#content section {
+  padding-top: 50px; }
+  /* line 52, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+  #content section h3 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 20px; }
+
+/* line 60, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+section#skills ul {
+  padding-left: 0; }
+  /* line 62, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+  section#skills ul li {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 3px 5px;
+    background-color: #aab;
+    color: #fff;
+    text-transform: uppercase; }
+
+/* line 74, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+.project ul.skills {
+  padding-left: 0; }
+  /* line 76, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+  .project ul.skills li {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 3px 5px;
+    background-color: #aab; }
+    /* line 81, /Users/vagmi/work/resume/source/stylesheets/newresume.scss */
+    .project ul.skills li a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none; }
