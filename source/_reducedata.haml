@@ -1,14 +1,20 @@
-%h3.span7.org
-  %a(href="http://www.reducedata.com" target="_blank") Reduce Data Inc.
-.span3
+.col-md-8.org
+  %h3
+    %a(href="http://www.reducedata.com" target="_blank") Reduce Data Inc.
+  %p Reduce Data is a demand side advertising platform which allows agencies and organizations to leverage programmatic media buying via the real time bidding platforms such as AppNexus, Nexage, Rubicon and others.
+.col-md-4
   .well
     CTO
     %br
     Sep 2013 onwards
-.span10.details
-  %p As the CTO, I am responsible for all the technical decisions made in the company
+.col-md-12.details
   .project
     %h3
       Self Service Platform
     = skill_tags("Clojure", "EmberJS", "HBase", "Cassandra", "Kafka")
     %p The self service platform or the actual app that the advertisers/agencies interact with is built with EmberJS on the front end backed by nginx and a clojure app on http-kit. It uses cassandra for a the metadata related to campaigns and various creatives while using HBase for storing transactional data and reporting key figures using counters.
+  .project
+    %h3
+      Machine Learning Improvements
+    = skill_tags("Clojure", "Weka", "Machine Learning")
+    %p We used the Weka toolkit to predict clicks for a given impression. We initially started with logistic regression and then also implemented a model with Random Forest. After several rounds of selecting and discarding features, we were able to improve the average CTR of our campaigns from 0.13% to about 0.36%. This is better than the industry average.

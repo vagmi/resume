@@ -1,105 +1,86 @@
-.navbar.navbar-inverse.navbar-fixed-top#main-nav
-  .navbar-inner
-    .container
-      %ul.nav
-        %li
-          %a(href="#about") About Me
-        %li
-          %a(href="#opensource") Open Source
-        %li
-          %a(href="#experience") Experience
-        %li
-          %a(href="#testimonials") Testimonials
-        %li
-          %a(href="#education") Education
-%header.container
+%header.container#about
   .row
-    .span2
-      %img.photo{:alt => "Vagmi Mudumbai", :src => "http://www.gravatar.com/avatar/76c5ea6a17750fdf3f65da5832a1f37c.png?s=130"}/
-    .span5
-      %h1 
-        %a(href="mailto:me@vagmim.in") Vagmi Mudumbai
+    .col-md-3
       %ul.social_links
         %li
-          %a.github{:href => "http://github.com/vagmi"} Github
+          %a.fa.fa-github{:href => "http://github.com/vagmi"}
         %li
-          %a.linked_in{:href => "http://linkedin.com/in/vagmi"} LinkedIn
+          %a.fa.fa-linkedin{:href => "http://linkedin.com/in/vagmi"}
         %li
-          %a.twitter{:href => "http://twitter.com/vagmi"} Twitter
+          %a.fa.fa-twitter{:href => "http://twitter.com/vagmi"}
         %li
-          %a.skype{:href => "skype:vagmi.mudumbai"} Skype
-      %p I code, therefore I am.
-    .span4
+          %a.fa.fa-rss{:href => "http://www.vagmim.in"}
+        %li
+          %a.fa.fa-envelope{:href => "mailto:me@vagmim.in"}
+        %li
+          %a.fa.fa-skype{:href => "skype:vagmi.mudumbai"}
+    .col-md-6
+      %p.photo-container
+        %img.photo{:alt => "Vagmi Mudumbai", :src => "http://www.gravatar.com/avatar/76c5ea6a17750fdf3f65da5832a1f37c.png?s=130"}/
+        %br
+        Dad, Entrepreneur, Software Craftsman
+    .col-md-3
       .well
-        %ul
-          %li 11 years of experience
+        %ul.overview
+          %li 12 years of experience
           %li A software generalist and a craftsman
           %li A continuous learner
           %li Entrepreneurial Attitude
-    
 #content.container
   .row
-    .span12
-      %p.print-only This content was printed from <a href="http://vagmi.github.com/resume">http://vagmi.github.com/resume</a>. Please visit that site for a better formatted version.
+    .col-md-12
+      %p.print-only This content was printed from <a href="http://vagmi.github.io/resume">http://vagmi.github.io/resume</a>. Please visit that site for a better formatted version.
   .row
-    .span2.heading 
-      %p Objective
-    %p#objective.span10
-      To work for an organization that values the craft of software development and provides the right kind
-      of environment and the freedom to build great software. I am very passionate about the open source and would
-      like to join an organization that not only uses open source software but creates or contributes to the ecosystem.
+    %section#objective
+      .col-md-2.heading
+        %h3 Objective
+      .col-md-10
+        To work for an organization that values the craft of software development and provides the right kind
+        of environment and the freedom to build great software. I am very passionate about the open source and would
+        like to join an organization that not only uses open source software but creates or contributes to the ecosystem.
   .row
-    .span2.heading 
-      %p Skills
-    .span10
-      %ul.skills
-        %li Ruby
-        %li Rails
-        %li Sinatra
-        %li Clojure
-        %li HTML5
-        %li CSS3
-        %li Javascript
-        %li Coffeescript
-        %li JQuery
-        %li Backbone.js
-        %li PostgreSQL
-        %li Neo4j
-        %li MongoDB
-        %li Cucumber
-        %li Java
+    %section#skills
+      .col-md-2.heading 
+        %h3 Skills
+      .col-md-10
+        %ul.skills
+          %li Clojure
+          %li Ruby
+          %li Java
+          %li HTML5
+          %li CSS3
+          %li Javascript
+          %li Coffeescript
+          %li JQuery
+          %li Backbone.js
+          %li Ember.js
+          %li Rails
+          %li PostgreSQL
+          %li Neo4j
+          %li Cassandra
+          %li HBase
 
   .row
-    .span2.heading 
-      %p Open Source
-    .span10#opensource= partial "opensource"
+    %section#opensource
+      .col-md-2.heading
+        %h3 Open Source
+      .col-md-10= partial "opensource"
   .row
-    .span2.heading 
-      %p Experience
-      %ul#exp-nav.nav.nav-list
-        %li
-          %a(href="#reducedata") Reduce Data
-        %li
-          %a(href="#thoughtworks") Thoughtworks
-        %li
-          %a(href="#dharana") Dharana &amp; Artha42
-        %li
-          %a(href="#sap") SAP Labs
-        %li
-          %a(href="#slash") SlashSupport
-        %li
-          %a(href="#bajaj") Bajaj Allianz
-    
-    .span10#experience
-      %p Following is a brief summary of my work so far.
-      - %w(reducedata thoughtworks dharana sap slash bajaj).each do |company|
-        .row
-          =partial "company", locals: {company: company}
+    %section#experience
+      .col-md-2.heading
+        %h3 Experience
+      .col-md-10
+        %p Following is a brief summary of my work so far.
+        - %w(reducedata thoughtworks dharana sap slash bajaj).each do |company|
+          .row
+            =partial "company", locals: {company: company}
   .row
-    .span2.heading 
-      %p Testimonials
-    .span10#testimonials= partial "testimonials"
+    %section#testimonials
+      .col-md-2.heading 
+        %h3 Testimonials
+      .col-md-10= partial "testimonials"
   .row
-    .span2.heading 
-      %p Education
-    .span10#education= partial "education"
+    %section#education
+      .col-md-2.heading 
+        %h3 Education
+      .col-md-10= partial "education"
