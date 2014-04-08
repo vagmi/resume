@@ -89,3 +89,15 @@ section#skills {
 #footer p {
   text-align: center;
 }
+@media print {
+  header.container ul.social_links {
+    li {
+      font-size: 0.4em;
+      margin: 0;
+    }
+  }
+  .org-section h3 a[href]:after {
+    font-size: 0.5em;
+    text-transform: none;
+  }
+}
