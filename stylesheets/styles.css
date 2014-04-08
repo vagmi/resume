@@ -146,3 +146,14 @@ section#skills ul {
 /* line 89, /Users/vagmi/work/resume/source/stylesheets/styles.scss */
 #footer p {
   text-align: center; }
+
+@media print {
+  /* line 94, /Users/vagmi/work/resume/source/stylesheets/styles.scss */
+  header.container ul.social_links li {
+    font-size: 0.4em;
+    margin: 0; }
+
+  /* line 99, /Users/vagmi/work/resume/source/stylesheets/styles.scss */
+  .org-section h3 a[href]:after {
+    font-size: 0.5em;
+    text-transform: none; } }
