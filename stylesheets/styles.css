@@ -156,4 +156,8 @@ section#skills ul {
   /* line 99, /Users/vagmi/work/resume/source/stylesheets/styles.scss */
   .org-section h3 a[href]:after {
     font-size: 0.5em;
-    text-transform: none; } }
+    text-transform: none; }
+
+  /* line 103, /Users/vagmi/work/resume/source/stylesheets/styles.scss */
+  .screen-only {
+    display: none; } }
